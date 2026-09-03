@@ -1,6 +1,6 @@
 ---
 name: gaff
-description: UK property research from open government data. Use when the user asks about property prices on a street, what homes sold for, whether an asking price is fair, or how people who bought and resold in a town actually did. Covers HM Land Registry sold prices and repeat-sales analysis.
+description: UK property research and listing appraisal from open government data. Use when the user asks what homes sold for on a street, whether an asking price or an asking rent is fair, how people who bought and resold in a town actually did, or wants a property listing they have pasted parsed, scored and talked through with the working shown. Covers HM Land Registry sold prices, UK HPI, repeat-sales analysis, and taste scoring of a listing the user supplies.
 ---
 
 # Gaff — property research
@@ -13,10 +13,21 @@ to the user.
 
 This folder is self-contained given the `gaff-engine` package: copy it into
 your skills directory as-is. The `./gaff` script imports `gaff_engine.tools`
-by name, so it needs `pip install` of the package (from the repo checkout or a
-wheel — it is not on PyPI yet) OR to sit inside a full checkout, where it
-finds the package by walking up from its own directory. If `./gaff doctor`
+by name, so it needs the package installed:
+
+```bash
+git clone https://github.com/finnomahony2/gaff && cd gaff
+pip install .
+```
+
+It is not on PyPI yet, so install from that checkout or from a wheel built
+from it. Alternatively the skill folder can sit inside a full checkout, where
+it finds the package by walking up from its own directory. If `./gaff doctor`
 runs, the install is good.
+
+The shipped `#!/usr/bin/env python3` shebang uses whichever python is first on
+PATH. If you installed the package into a virtualenv that is not active when
+the skill runs, point the shebang at that venv's python instead.
 
 ## Tools
 
