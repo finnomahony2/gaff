@@ -1,0 +1,4050 @@
+{
+  "cacheSchema": 1,
+  "street": "VERDUN CLOSE",
+  "town": "LEAMINGTON SPA",
+  "url": "http://landregistry.data.gov.uk/data/ppi/transaction-record.json?propertyAddress.street=VERDUN+CLOSE&propertyAddress.town=LEAMINGTON+SPA&_sort=-transactionDate&_pageSize=40",
+  "fetchedAt": "2026-08-29T11:51:16Z",
+  "count": 40,
+  "items": [
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/559C5AD5-ADB9-AFE3-E063-4804A8C004A4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/559C5AD5-ADB9-AFE3-E063-4804A8C004A4",
+      "newBuild": false,
+      "pricePaid": 250000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ba9b2c4e2698af2b29cae72b74c75edcd883b897",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "36",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 26 Jun 2026",
+      "transactionId": "559C5AD5-ADB9-AFE3-E063-4804A8C004A4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E5-41D0-60A9-E063-4804A8C0C25D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E5-41D0-60A9-E063-4804A8C0C25D",
+      "newBuild": false,
+      "pricePaid": 240000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/5488d0cb3810584d5210c8852ae445375aac94e6",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "47",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 31 Mar 2025",
+      "transactionId": "42C129E5-41D0-60A9-E063-4804A8C0C25D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/31C68072-B8F4-FEE3-E063-4804A8C04F37/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/31C68072-B8F4-FEE3-E063-4804A8C04F37",
+      "newBuild": false,
+      "pricePaid": 236000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4654d38d3210ebbdaeda953ec782cc3996d2225a",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "16",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 27 Mar 2025",
+      "transactionId": "31C68072-B8F4-FEE3-E063-4804A8C04F37",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1EAE3DF7-2366-9EB1-E063-4704A8C09D02/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1EAE3DF7-2366-9EB1-E063-4704A8C09D02",
+      "newBuild": false,
+      "pricePaid": 220000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/e77389d8bd5c09a58e527a15783b5ba53fa93f90",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "29",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 27 Mar 2024",
+      "transactionId": "1EAE3DF7-2366-9EB1-E063-4704A8C09D02",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1775CCF7-B5E3-38BA-E063-4704A8C05A7C/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1775CCF7-B5E3-38BA-E063-4704A8C05A7C",
+      "newBuild": false,
+      "pricePaid": 92500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ba2075365d89ae9d97b8ffab3bec68a33e741020",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "55",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 11 Mar 2024",
+      "transactionId": "1775CCF7-B5E3-38BA-E063-4704A8C05A7C",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/25E9DA81-950A-555E-E063-4704A8C066F2/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/25E9DA81-950A-555E-E063-4704A8C066F2",
+      "newBuild": false,
+      "pricePaid": 220000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/cc9fe2b8c281fe154fc85ce11fb167e109429a6d",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "27",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 26 Jan 2024",
+      "transactionId": "25E9DA81-950A-555E-E063-4704A8C066F2",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1775CCF7-B5DD-38BA-E063-4704A8C05A7C/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1775CCF7-B5DD-38BA-E063-4704A8C05A7C",
+      "newBuild": false,
+      "pricePaid": 232500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4bd990421d5bcaced88e873b6670885996be6b95",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "50",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 05 Dec 2023",
+      "transactionId": "1775CCF7-B5DD-38BA-E063-4704A8C05A7C",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/0B853950-90F1-69A5-E063-4704A8C07DAC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/0B853950-90F1-69A5-E063-4704A8C07DAC",
+      "newBuild": false,
+      "pricePaid": 216000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ba9b2c4e2698af2b29cae72b74c75edcd883b897",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "36",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 07 Nov 2023",
+      "transactionId": "0B853950-90F1-69A5-E063-4704A8C07DAC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/152AB734-97A7-E651-E063-4704A8C061D9/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/152AB734-97A7-E651-E063-4704A8C061D9",
+      "newBuild": false,
+      "pricePaid": 200000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c11e699543fe68b99739a3dd183eb8839402ca56",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "37",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 07 Nov 2023",
+      "transactionId": "152AB734-97A7-E651-E063-4704A8C061D9",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/09266DDC-32C0-AF90-E063-4704A8C02087/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/09266DDC-32C0-AF90-E063-4704A8C02087",
+      "newBuild": false,
+      "pricePaid": 214000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d8a3572e1066d4f27573f17b7da142ef9302af7c",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "10",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 21 Aug 2023",
+      "transactionId": "09266DDC-32C0-AF90-E063-4704A8C02087",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/FFA361DB-4DED-8A03-E053-4804A8C01F61/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/FFA361DB-4DED-8A03-E053-4804A8C01F61",
+      "newBuild": false,
+      "pricePaid": 303000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/e2825a011781fb43c507012717ac8b2f46c687ea",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "6",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 12 May 2023",
+      "transactionId": "FFA361DB-4DED-8A03-E053-4804A8C01F61",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/E7B085FC-F490-7E31-E053-6C04A8C0E67F/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/E7B085FC-F490-7E31-E053-6C04A8C0E67F",
+      "newBuild": false,
+      "pricePaid": 220000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/908ed1ec26bf2dc43276ee0d63908e4b27fb6630",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "40",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 21 Jul 2022",
+      "transactionId": "E7B085FC-F490-7E31-E053-6C04A8C0E67F",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/E2D14906-3825-4C2D-E053-6B04A8C0422B/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/E2D14906-3825-4C2D-E053-6B04A8C0422B",
+      "newBuild": false,
+      "pricePaid": 232500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4051e5138638ade5fd7dd08487e01f5b9a5d4a65",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "20",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 28 Feb 2022",
+      "transactionId": "E2D14906-3825-4C2D-E053-6B04A8C0422B",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/E073986B-E959-2134-E053-6C04A8C0233B/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/E073986B-E959-2134-E053-6C04A8C0233B",
+      "newBuild": false,
+      "pricePaid": 213000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d99470b314a27cb3074d161fc6f584833004915f",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "49",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 15 Oct 2021",
+      "transactionId": "E073986B-E959-2134-E053-6C04A8C0233B",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/D4D42646-8743-27F6-E053-6C04A8C0A572/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/D4D42646-8743-27F6-E053-6C04A8C0A572",
+      "newBuild": false,
+      "pricePaid": 212500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/5488d0cb3810584d5210c8852ae445375aac94e6",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "47",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 02 Sep 2021",
+      "transactionId": "D4D42646-8743-27F6-E053-6C04A8C0A572",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/D707E536-2967-0AD9-E053-6B04A8C067CC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/D707E536-2967-0AD9-E053-6B04A8C067CC",
+      "newBuild": false,
+      "pricePaid": 237750,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/753541dc0deda641c5b288efdde3c615d5de5d06",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "38",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 02 Aug 2021",
+      "transactionId": "D707E536-2967-0AD9-E053-6B04A8C067CC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/D22473F6-3A0C-7B40-E053-6C04A8C0A630/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/D22473F6-3A0C-7B40-E053-6C04A8C0A630",
+      "newBuild": false,
+      "pricePaid": 210000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/550b55a9f27f5cb538a0bfb69d03fefbdffa9278",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "45",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 30 Jun 2021",
+      "transactionId": "D22473F6-3A0C-7B40-E053-6C04A8C0A630",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C3C3F9B6-7186-362B-E053-6B04A8C03ACC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C3C3F9B6-7186-362B-E053-6B04A8C03ACC",
+      "newBuild": false,
+      "pricePaid": 124000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/de1f87abb603243a8efc0ffbf26fa187bbbb2002",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "57",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 09 Mar 2021",
+      "transactionId": "C3C3F9B6-7186-362B-E053-6B04A8C03ACC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C18F412B-744D-81A6-E053-6B04A8C0AD18/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C18F412B-744D-81A6-E053-6B04A8C0AD18",
+      "newBuild": false,
+      "pricePaid": 197500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/5a31c9feca6b0d0c45f31fa5295acd5dc24ae771",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "21",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 20 Jan 2021",
+      "transactionId": "C18F412B-744D-81A6-E053-6B04A8C0AD18",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/BEF7EBBF-70A8-7A76-E053-6B04A8C092F7/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/BEF7EBBF-70A8-7A76-E053-6B04A8C092F7",
+      "newBuild": false,
+      "pricePaid": 275000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/6ddfb22a88f57303078de6f1f3f3bbd21c243a00",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "1",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 18 Jan 2021",
+      "transactionId": "BEF7EBBF-70A8-7A76-E053-6B04A8C092F7",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/B0A9D11B-E114-4C1F-E053-6C04A8C0D716/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/B0A9D11B-E114-4C1F-E053-6C04A8C0D716",
+      "newBuild": false,
+      "pricePaid": 207000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/faacbc67707add4dadf8f571307e0bb23db8a992",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "23",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 26 Mar 2020",
+      "transactionId": "B0A9D11B-E114-4C1F-E053-6C04A8C0D716",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/9DBAD222-6116-6EB3-E053-6B04A8C0F257/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/9DBAD222-6116-6EB3-E053-6B04A8C0F257",
+      "newBuild": false,
+      "pricePaid": 200000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4051e5138638ade5fd7dd08487e01f5b9a5d4a65",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "20",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 29 Nov 2019",
+      "transactionId": "9DBAD222-6116-6EB3-E053-6B04A8C0F257",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/8F1B26BE-553C-53DB-E053-6C04A8C03649/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/8F1B26BE-553C-53DB-E053-6C04A8C03649",
+      "newBuild": false,
+      "pricePaid": 198500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d99470b314a27cb3074d161fc6f584833004915f",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "49",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 12 Jul 2019",
+      "transactionId": "8F1B26BE-553C-53DB-E053-6C04A8C03649",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/6B32222C-C6D0-01F1-E053-6C04A8C0D2C8/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/6B32222C-C6D0-01F1-E053-6C04A8C0D2C8",
+      "newBuild": false,
+      "pricePaid": 200000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d622e816ceae3f2b96c5c25dd323a2f3e4e068e0",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "48",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 12 Jan 2018",
+      "transactionId": "6B32222C-C6D0-01F1-E053-6C04A8C0D2C8",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5F54B81D-E410-2B45-E053-6B04A8C01FB0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5F54B81D-E410-2B45-E053-6B04A8C01FB0",
+      "newBuild": false,
+      "pricePaid": 128000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/b9efba94b0ba94138c0ed841336c44b5faa7d12c",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "59",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 27 Oct 2017",
+      "transactionId": "5F54B81D-E410-2B45-E053-6B04A8C01FB0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5CF9903C-A55A-7F13-E053-6C04A8C074B1/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5CF9903C-A55A-7F13-E053-6C04A8C074B1",
+      "newBuild": false,
+      "pricePaid": 215000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/29d7e05b0be9ffd92549d9bc94abc20c06d1b750",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "35",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 15 Sep 2017",
+      "transactionId": "5CF9903C-A55A-7F13-E053-6C04A8C074B1",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/55BDCAE6-A0F4-521D-E053-6B04A8C0DD7A/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/55BDCAE6-A0F4-521D-E053-6B04A8C0DD7A",
+      "newBuild": false,
+      "pricePaid": 225000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/e2825a011781fb43c507012717ac8b2f46c687ea",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "6",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 21 Jul 2017",
+      "transactionId": "55BDCAE6-A0F4-521D-E053-6B04A8C0DD7A",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5376B386-1664-34C1-E053-6B04A8C09FF6/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5376B386-1664-34C1-E053-6B04A8C09FF6",
+      "newBuild": false,
+      "pricePaid": 110000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1d790c4a3bc63b9247feed91ca0fc7f9772cb577",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "61",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 13 Jun 2017",
+      "transactionId": "5376B386-1664-34C1-E053-6B04A8C09FF6",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/55BDCAE6-A0EF-521D-E053-6B04A8C0DD7A/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/55BDCAE6-A0EF-521D-E053-6B04A8C0DD7A",
+      "newBuild": false,
+      "pricePaid": 195000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/5488d0cb3810584d5210c8852ae445375aac94e6",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "47",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 29 Mar 2017",
+      "transactionId": "55BDCAE6-A0EF-521D-E053-6B04A8C0DD7A",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/453D27A3-A96C-EF91-E050-A8C0630574D7/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/453D27A3-A96C-EF91-E050-A8C0630574D7",
+      "newBuild": false,
+      "pricePaid": 184000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/005ee88145117f3f3fdaa3f6aafd3a6bf05ae7ba",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "14",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 02 Dec 2016",
+      "transactionId": "453D27A3-A96C-EF91-E050-A8C0630574D7",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3B7E0B90-8FF3-EA99-E050-A8C062057E77/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3B7E0B90-8FF3-EA99-E050-A8C062057E77",
+      "newBuild": false,
+      "pricePaid": 200000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/753541dc0deda641c5b288efdde3c615d5de5d06",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "38",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 19 Aug 2016",
+      "transactionId": "3B7E0B90-8FF3-EA99-E050-A8C062057E77",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3914047A-519F-3206-E050-A8C063057647/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3914047A-519F-3206-E050-A8C063057647",
+      "newBuild": false,
+      "pricePaid": 197000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/75d4ae457c811ebf4f914ae095412f87adc8160a",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "43",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 08 Jul 2016",
+      "transactionId": "3914047A-519F-3206-E050-A8C063057647",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/31FB4C18-2546-57B9-E050-A8C063053436/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/31FB4C18-2546-57B9-E050-A8C063053436",
+      "newBuild": false,
+      "pricePaid": 195000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4bd990421d5bcaced88e873b6670885996be6b95",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "50",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 31 Mar 2016",
+      "transactionId": "31FB4C18-2546-57B9-E050-A8C063053436",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/31FB4C18-2822-57B9-E050-A8C063053436/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/31FB4C18-2822-57B9-E050-A8C063053436",
+      "newBuild": false,
+      "pricePaid": 127000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/03458f603bf51ab38d864f98b64d94dde9b86c49",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "56",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 29 Mar 2016",
+      "transactionId": "31FB4C18-2822-57B9-E050-A8C063053436",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2AC10E50-2F35-1AF6-E050-A8C063052BA1/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2AC10E50-2F35-1AF6-E050-A8C063052BA1",
+      "newBuild": false,
+      "pricePaid": 190000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4051e5138638ade5fd7dd08487e01f5b9a5d4a65",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "20",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 15 Jan 2016",
+      "transactionId": "2AC10E50-2F35-1AF6-E050-A8C063052BA1",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2AC10E50-2F2D-1AF6-E050-A8C063052BA1/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2AC10E50-2F2D-1AF6-E050-A8C063052BA1",
+      "newBuild": false,
+      "pricePaid": 185000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4654d38d3210ebbdaeda953ec782cc3996d2225a",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "16",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 18 Dec 2015",
+      "transactionId": "2AC10E50-2F2D-1AF6-E050-A8C063052BA1",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2FD36066-2B37-4BF8-E050-A8C0620562B1/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2FD36066-2B37-4BF8-E050-A8C0620562B1",
+      "newBuild": false,
+      "pricePaid": 98000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/de1f87abb603243a8efc0ffbf26fa187bbbb2002",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "57",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 23 Oct 2015",
+      "transactionId": "2FD36066-2B37-4BF8-E050-A8C0620562B1",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/97C64E64-8B4A-41C0-A7EF-7F3DF4A4B2D1/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/97C64E64-8B4A-41C0-A7EF-7F3DF4A4B2D1",
+      "newBuild": false,
+      "pricePaid": 168500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/aa2dff1d524f685a11985f1fdeceb3a02bb58cab",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "17",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 12 Sep 2014",
+      "transactionId": "97C64E64-8B4A-41C0-A7EF-7F3DF4A4B2D1",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/08A59FF7-60EE-405B-828A-357A78386457/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/08A59FF7-60EE-405B-828A-357A78386457",
+      "newBuild": false,
+      "pricePaid": 171000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d622e816ceae3f2b96c5c25dd323a2f3e4e068e0",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "48",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 15 Aug 2014",
+      "transactionId": "08A59FF7-60EE-405B-828A-357A78386457",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/06FA8FE5-E4CF-4B0A-A1E9-FDE21DF6A92F/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/06FA8FE5-E4CF-4B0A-A1E9-FDE21DF6A92F",
+      "newBuild": false,
+      "pricePaid": 172000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/79cf26912b7f6ac87157b213da8eec5fc0448d59",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "WHITNASH",
+        "paon": "8",
+        "postcode": "CV31 2LR",
+        "street": "VERDUN CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 23 Jul 2014",
+      "transactionId": "06FA8FE5-E4CF-4B0A-A1E9-FDE21DF6A92F",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

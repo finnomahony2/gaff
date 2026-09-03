@@ -1,0 +1,4009 @@
+{
+  "street": "FOYLE ROAD",
+  "town": "LONDON",
+  "url": "http://landregistry.data.gov.uk/data/ppi/transaction-record.json?propertyAddress.street=FOYLE+ROAD&propertyAddress.town=LONDON&_sort=-transactionDate&_pageSize=40",
+  "fetchedAt": "2026-07-15T22:06:27Z",
+  "count": 40,
+  "items": [
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-C1AA-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-C1AA-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 3400000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/0c5d44d284af6da1b65bcf295bba6788fcfa1e27",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "34B",
+        "postcode": "SE3 7RH",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/detached",
+        "label": [
+          {
+            "_value": "Detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 12 Mar 2026",
+      "transactionId": "4E75C29D-C1AA-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-77C0-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-77C0-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 532600,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/be047a6dfe7479a63ef87f991481b0dbabc965c7",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "29",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 26 Sep 2025",
+      "transactionId": "4E75C29D-77C0-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673F-6561-D8EA-E063-4704A8C0BF7D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673F-6561-D8EA-E063-4704A8C0BF7D",
+      "newBuild": false,
+      "pricePaid": 374000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/eb3dddbc1f380549b36b9a4b69c103b32f023fa5",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "50",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 08 Sep 2025",
+      "transactionId": "4C1B673F-6561-D8EA-E063-4704A8C0BF7D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/402A3A66-746E-A7DF-E063-4804A8C0B80D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/402A3A66-746E-A7DF-E063-4804A8C0B80D",
+      "newBuild": false,
+      "pricePaid": 985000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1c73324ae65bf925e2b898c12f87c1a931b589c8",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "73B",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 29 Aug 2025",
+      "transactionId": "402A3A66-746E-A7DF-E063-4804A8C0B80D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/50D10B84-C7CE-B8D0-E063-4704A8C08D98/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/50D10B84-C7CE-B8D0-E063-4704A8C08D98",
+      "newBuild": false,
+      "pricePaid": 400000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/eaa63a458878b462a59f32141bd597b232a1fd2c",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "8",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 28 Jul 2025",
+      "transactionId": "50D10B84-C7CE-B8D0-E063-4704A8C08D98",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-80EC-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-80EC-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 1670000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3b3de38002aa5165ddba4d70bf3431c8d5f71292",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "72",
+        "postcode": "SE3 7RH",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/detached",
+        "label": [
+          {
+            "_value": "Detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 25 Feb 2025",
+      "transactionId": "49E87C31-80EC-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AB-C923-52B4-E063-4804A8C05948/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AB-C923-52B4-E063-4804A8C05948",
+      "newBuild": false,
+      "pricePaid": 415000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/516fd4722520734763aeeeda2d2c2c1a66dd3f2f",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "3",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 04 Oct 2024",
+      "transactionId": "2859C1AB-C923-52B4-E063-4804A8C05948",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/237B17FE-878F-22AC-E063-4804A8C0EA3A/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/237B17FE-878F-22AC-E063-4804A8C0EA3A",
+      "newBuild": false,
+      "pricePaid": 575000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/764f4858b49d4be956a33a835240edf7ac6f4a88",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "67B",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 08 Aug 2024",
+      "transactionId": "237B17FE-878F-22AC-E063-4804A8C0EA3A",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1EAE3DF6-B0F6-9EB1-E063-4704A8C09D02/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1EAE3DF6-B0F6-9EB1-E063-4704A8C09D02",
+      "newBuild": false,
+      "pricePaid": 1378000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/519efb2b1782d660a6b6215fae5b6b92ae6b4032",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "19",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 12 Jul 2024",
+      "transactionId": "1EAE3DF6-B0F6-9EB1-E063-4704A8C09D02",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/25E9DA81-1FFD-555E-E063-4704A8C066F2/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/25E9DA81-1FFD-555E-E063-4704A8C066F2",
+      "newBuild": false,
+      "pricePaid": 626300,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/eb87c49a56a3e3af84f2ad37f21a1ed38c5edbbf",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "46",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 29 May 2024",
+      "transactionId": "25E9DA81-1FFD-555E-E063-4704A8C066F2",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2131FCF6-41B9-86E8-E063-4804A8C0372B/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2131FCF6-41B9-86E8-E063-4804A8C0372B",
+      "newBuild": false,
+      "pricePaid": 591000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/014f6ab14344f534d6587c33cf44691684ed9336",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "42",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 19 Apr 2024",
+      "transactionId": "2131FCF6-41B9-86E8-E063-4804A8C0372B",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/0B853950-D87B-69A5-E063-4704A8C07DAC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/0B853950-D87B-69A5-E063-4704A8C07DAC",
+      "newBuild": false,
+      "pricePaid": 400000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/151221fd5a9410a4b0d726df4be5591235616eff",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "35",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 23 Nov 2023",
+      "transactionId": "0B853950-D87B-69A5-E063-4704A8C07DAC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/0E082197-77D7-5C09-E063-4704A8C0A10E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/0E082197-77D7-5C09-E063-4704A8C0A10E",
+      "newBuild": false,
+      "pricePaid": 438000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/151221fd5a9410a4b0d726df4be5591235616eff",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "35",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 23 Nov 2023",
+      "transactionId": "0E082197-77D7-5C09-E063-4704A8C0A10E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1061746E-DB41-3C34-E063-4804A8C0F9E7/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1061746E-DB41-3C34-E063-4804A8C0F9E7",
+      "newBuild": false,
+      "pricePaid": 184500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/b46dfaa6c7a2bac4d459f49f7033406d81798621",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "27",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 17 Oct 2023",
+      "transactionId": "1061746E-DB41-3C34-E063-4804A8C0F9E7",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/EED73E76-3F55-6AF3-E053-6C04A8C08ABA/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/EED73E76-3F55-6AF3-E053-6C04A8C08ABA",
+      "newBuild": false,
+      "pricePaid": 847000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1c73324ae65bf925e2b898c12f87c1a931b589c8",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "73B",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 13 Oct 2022",
+      "transactionId": "EED73E76-3F55-6AF3-E053-6C04A8C08ABA",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/F5E8B080-CD0C-3A13-E053-6C04A8C060B7/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/F5E8B080-CD0C-3A13-E053-6C04A8C060B7",
+      "newBuild": false,
+      "pricePaid": 1375000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/80af9fc3187587c312a50c17bee21434e545083c",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "49",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 07 Oct 2022",
+      "transactionId": "F5E8B080-CD0C-3A13-E053-6C04A8C060B7",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/EA3278AA-68B4-2676-E053-6B04A8C015F8/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/EA3278AA-68B4-2676-E053-6B04A8C015F8",
+      "newBuild": false,
+      "pricePaid": 2100000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c76679d5e18638814b3b25bc4e958339d3e89ee0",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "79",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 24 Aug 2022",
+      "transactionId": "EA3278AA-68B4-2676-E053-6B04A8C015F8",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/EA3278AA-6720-2676-E053-6B04A8C015F8/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/EA3278AA-6720-2676-E053-6B04A8C015F8",
+      "newBuild": false,
+      "pricePaid": 1325000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/a0ca5a12e184354892e2bc36bd644787acdd5271",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "59",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 18 Aug 2022",
+      "transactionId": "EA3278AA-6720-2676-E053-6B04A8C015F8",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/EA3278A9-70AD-2676-E053-6B04A8C015F8/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/EA3278A9-70AD-2676-E053-6B04A8C015F8",
+      "newBuild": false,
+      "pricePaid": 2136000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9ade51cfd0143fd0cd2f1b8b7b4d7d11a8d7e284",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "75",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 02 Aug 2022",
+      "transactionId": "EA3278A9-70AD-2676-E053-6B04A8C015F8",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/EED73E76-3E9D-6AF3-E053-6C04A8C08ABA/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/EED73E76-3E9D-6AF3-E053-6C04A8C08ABA",
+      "newBuild": false,
+      "pricePaid": 2531000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/0c5d44d284af6da1b65bcf295bba6788fcfa1e27",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "34B",
+        "postcode": "SE3 7RH",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/detached",
+        "label": [
+          {
+            "_value": "Detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 25 Feb 2022",
+      "transactionId": "EED73E76-3E9D-6AF3-E053-6C04A8C08ABA",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/D707E534-B16E-0AD9-E053-6B04A8C067CC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/D707E534-B16E-0AD9-E053-6B04A8C067CC",
+      "newBuild": false,
+      "pricePaid": 1350000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/07ea7890ed928b38ede6cdc7def212f81f98b153",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "3",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 21 Dec 2021",
+      "transactionId": "D707E534-B16E-0AD9-E053-6B04A8C067CC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/D4D42646-4278-27F6-E053-6C04A8C0A572/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/D4D42646-4278-27F6-E053-6C04A8C0A572",
+      "newBuild": false,
+      "pricePaid": 1150000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/fc953880c5e43af9a4d33e2eb24aa98ffb211d7f",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "45",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 19 Nov 2021",
+      "transactionId": "D4D42646-4278-27F6-E053-6C04A8C0A572",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/D4D42646-09CB-27F6-E053-6C04A8C0A572/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/D4D42646-09CB-27F6-E053-6C04A8C0A572",
+      "newBuild": false,
+      "pricePaid": 500000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/8e01fad2955fd76028597c1e9c14c51c0a66f409",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "61",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 05 Nov 2021",
+      "transactionId": "D4D42646-09CB-27F6-E053-6C04A8C0A572",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C8A3A576-5818-0425-E053-6C04A8C0947B/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C8A3A576-5818-0425-E053-6C04A8C0947B",
+      "newBuild": false,
+      "pricePaid": 1315500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/e4492fdd490d7a4fe84d408dec23d1c7b7a5798b",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "11",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 29 Jun 2021",
+      "transactionId": "C8A3A576-5818-0425-E053-6C04A8C0947B",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C8A3A576-5836-0425-E053-6C04A8C0947B/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C8A3A576-5836-0425-E053-6C04A8C0947B",
+      "newBuild": false,
+      "pricePaid": 955000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/24290335f30757146e2be8605af6688a02f4a6c6",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "30",
+        "postcode": "SE3 7RH",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 17 Jun 2021",
+      "transactionId": "C8A3A576-5836-0425-E053-6C04A8C0947B",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/D4D42646-6BFC-27F6-E053-6C04A8C0A572/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/D4D42646-6BFC-27F6-E053-6C04A8C0A572",
+      "newBuild": false,
+      "pricePaid": 535000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/76c920070a602d467fcd91e0e57ea9965427b43c",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "54B",
+        "postcode": "SE3 7RH",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 11 Jun 2021",
+      "transactionId": "D4D42646-6BFC-27F6-E053-6C04A8C0A572",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/CFC9085D-1AEB-9A70-E053-6B04A8C09D6A/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/CFC9085D-1AEB-9A70-E053-6B04A8C09D6A",
+      "newBuild": false,
+      "pricePaid": 515000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/764f4858b49d4be956a33a835240edf7ac6f4a88",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "67B",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 20 May 2021",
+      "transactionId": "CFC9085D-1AEB-9A70-E053-6B04A8C09D6A",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/E53EDD2E-542F-83EC-E053-6B04A8C03A59/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/E53EDD2E-542F-83EC-E053-6B04A8C03A59",
+      "newBuild": false,
+      "pricePaid": 2000000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9f751299428d4ac40a9b3c2fd57e8d5aec7b7d9c",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "34A",
+        "postcode": "SE3 7RH",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/detached",
+        "label": [
+          {
+            "_value": "Detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 20 May 2021",
+      "transactionId": "E53EDD2E-542F-83EC-E053-6B04A8C03A59",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C3C3F9B5-4C94-362B-E053-6B04A8C03ACC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C3C3F9B5-4C94-362B-E053-6B04A8C03ACC",
+      "newBuild": false,
+      "pricePaid": 1450000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c4f9bf76a2825a5c63583e71dab0f4f8595ac7ce",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "57",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 17 Mar 2021",
+      "transactionId": "C3C3F9B5-4C94-362B-E053-6B04A8C03ACC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C3C3F9B6-09D0-362B-E053-6B04A8C03ACC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C3C3F9B6-09D0-362B-E053-6B04A8C03ACC",
+      "newBuild": false,
+      "pricePaid": 460000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/95f4ccacf11bbf5572ca85da11288499b9b87010",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "17",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 10 Mar 2021",
+      "transactionId": "C3C3F9B6-09D0-362B-E053-6B04A8C03ACC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C6209F5F-2241-295E-E053-6C04A8C0DDCC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C6209F5F-2241-295E-E053-6C04A8C0DDCC",
+      "newBuild": false,
+      "pricePaid": 405000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/516fd4722520734763aeeeda2d2c2c1a66dd3f2f",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "3",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 10 Mar 2021",
+      "transactionId": "C6209F5F-2241-295E-E053-6C04A8C0DDCC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/BC8936BB-2E70-0E2C-E053-6C04A8C0DBF4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/BC8936BB-2E70-0E2C-E053-6C04A8C0DBF4",
+      "newBuild": false,
+      "pricePaid": 970000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/8303ff348dd446d8285d9693710d97c17f89bf59",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "18",
+        "postcode": "SE3 7RH",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 06 Jan 2021",
+      "transactionId": "BC8936BB-2E70-0E2C-E053-6C04A8C0DBF4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/919FEC05-AD01-9A90-E053-6C04A8C0A300/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/919FEC05-AD01-9A90-E053-6C04A8C0A300",
+      "newBuild": false,
+      "pricePaid": 1980000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1497fa38df128144b84c34a043feca98efb9cc95",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "70",
+        "postcode": "SE3 7RH",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 30 Jul 2019",
+      "transactionId": "919FEC05-AD01-9A90-E053-6C04A8C0A300",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/85866A65-4E0B-143F-E053-6B04A8C06A15/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/85866A65-4E0B-143F-E053-6B04A8C06A15",
+      "newBuild": false,
+      "pricePaid": 735000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1c73324ae65bf925e2b898c12f87c1a931b589c8",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "73B",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 01 Feb 2019",
+      "transactionId": "85866A65-4E0B-143F-E053-6B04A8C06A15",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/8A78B2AF-337A-5CB0-E053-6B04A8C0F504/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/8A78B2AF-337A-5CB0-E053-6B04A8C0F504",
+      "newBuild": false,
+      "pricePaid": 315000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/00ea18b50201468dd64b33c6af6a0a14ca72da3b",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "57",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 12 Dec 2018",
+      "transactionId": "8A78B2AF-337A-5CB0-E053-6B04A8C0F504",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/7C2D0700-61C2-4963-E053-6B04A8C07B97/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/7C2D0700-61C2-4963-E053-6B04A8C07B97",
+      "newBuild": false,
+      "pricePaid": 484000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/74d34caa567b11971da3f06f3169c6fc42f0e4a8",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "18",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 25 Oct 2018",
+      "transactionId": "7C2D0700-61C2-4963-E053-6B04A8C07B97",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/79A74E22-9A4B-1289-E053-6B04A8C01627/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/79A74E22-9A4B-1289-E053-6B04A8C01627",
+      "newBuild": false,
+      "pricePaid": 425000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/2a42e4d3950a57d02932b68b9f8a63fe61edd50c",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "56",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 28 Sep 2018",
+      "transactionId": "79A74E22-9A4B-1289-E053-6B04A8C01627",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/75050A85-6703-9A88-E053-6B04A8C02390/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/75050A85-6703-9A88-E053-6B04A8C02390",
+      "newBuild": false,
+      "pricePaid": 540000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/a4b4b799d0e0b1befd52028bf07f80f23eeec674",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "34",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 20 Jul 2018",
+      "transactionId": "75050A85-6703-9A88-E053-6B04A8C02390",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/75050A85-682D-9A88-E053-6B04A8C02390/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/75050A85-682D-9A88-E053-6B04A8C02390",
+      "newBuild": false,
+      "pricePaid": 462000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1aa1f7393b1ace2eefe3250449e543789300d35a",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "14",
+        "postcode": "N17 0NL",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 13 Jul 2018",
+      "transactionId": "75050A85-682D-9A88-E053-6B04A8C02390",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/7011B10A-3D64-8ED6-E053-6B04A8C075C1/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/7011B10A-3D64-8ED6-E053-6B04A8C075C1",
+      "newBuild": false,
+      "pricePaid": 1700000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/008f77d0aad812542d13d8608263b07f57ed90c1",
+        "county": "GREATER LONDON",
+        "district": "GREENWICH",
+        "paon": "63",
+        "postcode": "SE3 7RQ",
+        "street": "FOYLE ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/otherPropertyType",
+        "label": [
+          {
+            "_value": "other",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "other",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 22 Jun 2018",
+      "transactionId": "7011B10A-3D64-8ED6-E053-6B04A8C075C1",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

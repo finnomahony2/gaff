@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv*/
+build/
+dist/
+*.egg-info/
+.cache/
+
+# NOTE: gaff_engine/data/ is deliberately NOT ignored. The warm cache is the
+# reason a fresh install can answer anything before the user has fetched
+# something themselves, so it is committed, not regenerated.

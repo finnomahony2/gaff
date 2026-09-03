@@ -1,0 +1,4050 @@
+{
+  "cacheSchema": 1,
+  "street": "PENFOLD CLOSE",
+  "town": "LEAMINGTON SPA",
+  "url": "http://landregistry.data.gov.uk/data/ppi/transaction-record.json?propertyAddress.street=PENFOLD+CLOSE&propertyAddress.town=LEAMINGTON+SPA&_sort=-transactionDate&_pageSize=40",
+  "fetchedAt": "2026-08-29T11:51:25Z",
+  "count": 40,
+  "items": [
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-D544-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-D544-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 261000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9c50faf0746bd0a01d402085066d2aaea169a50b",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "14",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 11 Mar 2026",
+      "transactionId": "4E75C29D-D544-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673F-BC4F-D8EA-E063-4704A8C0BF7D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673F-BC4F-D8EA-E063-4704A8C0BF7D",
+      "newBuild": false,
+      "pricePaid": 390000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/95f0c23cfb557df92505245ef39e74897b6350b6",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "26",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 23 Jan 2026",
+      "transactionId": "4C1B673F-BC4F-D8EA-E063-4704A8C0BF7D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1A0C5C63-C80B-7CBE-E063-4804A8C06C96/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1A0C5C63-C80B-7CBE-E063-4804A8C06C96",
+      "newBuild": false,
+      "pricePaid": 260000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/570fae2d7cd7bf63c98233433e1714a2ced7e65b",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "20",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 26 Apr 2024",
+      "transactionId": "1A0C5C63-C80B-7CBE-E063-4804A8C06C96",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1C3E72FE-C602-F410-E063-4804A8C0DFA6/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1C3E72FE-C602-F410-E063-4804A8C0DFA6",
+      "newBuild": false,
+      "pricePaid": 233000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9d2c2b41ef1cd6bce1821878ce2dca15da3d9f82",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "7",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 14 Feb 2024",
+      "transactionId": "1C3E72FE-C602-F410-E063-4804A8C0DFA6",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1775CCF7-B5F9-38BA-E063-4704A8C05A7C/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1775CCF7-B5F9-38BA-E063-4704A8C05A7C",
+      "newBuild": false,
+      "pricePaid": 280000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3796c451bdab44cfe8ee22bbff2a9d8e38717c09",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "21",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 30 Nov 2023",
+      "transactionId": "1775CCF7-B5F9-38BA-E063-4704A8C05A7C",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/0B853950-910A-69A5-E063-4704A8C07DAC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/0B853950-910A-69A5-E063-4704A8C07DAC",
+      "newBuild": false,
+      "pricePaid": 250000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9c50faf0746bd0a01d402085066d2aaea169a50b",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "14",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 24 Oct 2023",
+      "transactionId": "0B853950-910A-69A5-E063-4704A8C07DAC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/FD226036-5AC0-4CB7-E053-4804A8C00430/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/FD226036-5AC0-4CB7-E053-4804A8C00430",
+      "newBuild": false,
+      "pricePaid": 250000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3608f934ca7ca6b6d9649e43aa8a6d96196b14d4",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "10",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 02 May 2023",
+      "transactionId": "FD226036-5AC0-4CB7-E053-4804A8C00430",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/E53EDD2E-6963-83EC-E053-6B04A8C03A59/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/E53EDD2E-6963-83EC-E053-6B04A8C03A59",
+      "newBuild": false,
+      "pricePaid": 230000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/864ec1cef49f5ee5693587a4270ef0e9c70116bf",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "11",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 13 May 2022",
+      "transactionId": "E53EDD2E-6963-83EC-E053-6B04A8C03A59",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/DE2D0CE0-525B-51EE-E053-6C04A8C00671/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/DE2D0CE0-525B-51EE-E053-6C04A8C00671",
+      "newBuild": false,
+      "pricePaid": 235000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/570fae2d7cd7bf63c98233433e1714a2ced7e65b",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "20",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 22 Oct 2021",
+      "transactionId": "DE2D0CE0-525B-51EE-E053-6C04A8C00671",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/B82222ED-6B4D-6691-E053-6B04A8C02FB2/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/B82222ED-6B4D-6691-E053-6B04A8C02FB2",
+      "newBuild": false,
+      "pricePaid": 215000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/632d1fb2a4f1d1a7ee77319197b9cb1ca7d309eb",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "9",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 05 Nov 2020",
+      "transactionId": "B82222ED-6B4D-6691-E053-6B04A8C02FB2",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/AE4D86D4-7F35-4619-E053-6C04A8C03CD0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/AE4D86D4-7F35-4619-E053-6C04A8C03CD0",
+      "newBuild": false,
+      "pricePaid": 230000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ab49cd97a69bc82eae8773c608d60a22edaddecc",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "8",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 31 Jul 2020",
+      "transactionId": "AE4D86D4-7F35-4619-E053-6C04A8C03CD0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/AE4D86D4-BA90-4619-E053-6C04A8C03CD0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/AE4D86D4-BA90-4619-E053-6C04A8C03CD0",
+      "newBuild": false,
+      "pricePaid": 230000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ab49cd97a69bc82eae8773c608d60a22edaddecc",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "8",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 26 Jun 2020",
+      "transactionId": "AE4D86D4-BA90-4619-E053-6C04A8C03CD0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/9FF0D96A-4850-11ED-E053-6C04A8C06383/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/9FF0D96A-4850-11ED-E053-6C04A8C06383",
+      "newBuild": false,
+      "pricePaid": 230000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/153847baa116f1028b15ae3122a60bc90fd50f3d",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "19",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 22 Nov 2019",
+      "transactionId": "9FF0D96A-4850-11ED-E053-6C04A8C06383",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/98C75472-7A9E-72E9-E053-6B04A8C042F0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/98C75472-7A9E-72E9-E053-6B04A8C042F0",
+      "newBuild": false,
+      "pricePaid": 265000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/e4dd878269166bd916977e71ce31446155196f1d",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "27",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 31 Oct 2019",
+      "transactionId": "98C75472-7A9E-72E9-E053-6B04A8C042F0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/965B6D92-0D3A-95E4-E053-6C04A8C07729/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/965B6D92-0D3A-95E4-E053-6C04A8C07729",
+      "newBuild": false,
+      "pricePaid": 222000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/570fae2d7cd7bf63c98233433e1714a2ced7e65b",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "20",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 27 Sep 2019",
+      "transactionId": "965B6D92-0D3A-95E4-E053-6C04A8C07729",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/8F1B26BE-5564-53DB-E053-6C04A8C03649/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/8F1B26BE-5564-53DB-E053-6C04A8C03649",
+      "newBuild": false,
+      "pricePaid": 218000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9d2c2b41ef1cd6bce1821878ce2dca15da3d9f82",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "7",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 07 Jun 2019",
+      "transactionId": "8F1B26BE-5564-53DB-E053-6C04A8C03649",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/85866A65-5E79-143F-E053-6B04A8C06A15/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/85866A65-5E79-143F-E053-6B04A8C06A15",
+      "newBuild": false,
+      "pricePaid": 228000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ab49cd97a69bc82eae8773c608d60a22edaddecc",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "8",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 22 Feb 2019",
+      "transactionId": "85866A65-5E79-143F-E053-6B04A8C06A15",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/773788C3-51F9-2CE4-E053-6C04A8C05E57/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/773788C3-51F9-2CE4-E053-6C04A8C05E57",
+      "newBuild": false,
+      "pricePaid": 235235,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c7f3ab3cb0ece01831e3a7ac87a2bf690a856b33",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "4",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 13 Aug 2018",
+      "transactionId": "773788C3-51F9-2CE4-E053-6C04A8C05E57",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/726BF13B-6FFA-0A46-E053-6C04A8C01D0D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/726BF13B-6FFA-0A46-E053-6C04A8C01D0D",
+      "newBuild": false,
+      "pricePaid": 265000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/675714e29a2f5e0b62cb1d7c279a8ea0e34b6a61",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "23",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 06 Jul 2018",
+      "transactionId": "726BF13B-6FFA-0A46-E053-6C04A8C01D0D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/6DA0844A-80D4-30F2-E053-6B04A8C05F3B/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/6DA0844A-80D4-30F2-E053-6B04A8C05F3B",
+      "newBuild": false,
+      "pricePaid": 206000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3608f934ca7ca6b6d9649e43aa8a6d96196b14d4",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "10",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 03 May 2018",
+      "transactionId": "6DA0844A-80D4-30F2-E053-6B04A8C05F3B",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/64342BFF-6D1F-422C-E053-6C04A8C0FB8A/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/64342BFF-6D1F-422C-E053-6C04A8C0FB8A",
+      "newBuild": false,
+      "pricePaid": 210000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3608f934ca7ca6b6d9649e43aa8a6d96196b14d4",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "10",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 15 Dec 2017",
+      "transactionId": "64342BFF-6D1F-422C-E053-6C04A8C0FB8A",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/42A5A709-E1F1-56E8-E050-A8C06205331E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/42A5A709-E1F1-56E8-E050-A8C06205331E",
+      "newBuild": false,
+      "pricePaid": 220000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/69d659ec01f3fdae4d111ac1cd9bec1dbdedc1fc",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "3",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 25 Nov 2016",
+      "transactionId": "42A5A709-E1F1-56E8-E050-A8C06205331E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3B7E0B90-9009-EA99-E050-A8C062057E77/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3B7E0B90-9009-EA99-E050-A8C062057E77",
+      "newBuild": false,
+      "pricePaid": 210000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/864ec1cef49f5ee5693587a4270ef0e9c70116bf",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "11",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 08 Jul 2016",
+      "transactionId": "3B7E0B90-9009-EA99-E050-A8C062057E77",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/6477707F-9DE7-4E99-91E0-C44D19AD50D9/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/6477707F-9DE7-4E99-91E0-C44D19AD50D9",
+      "newBuild": false,
+      "pricePaid": 186250,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/632d1fb2a4f1d1a7ee77319197b9cb1ca7d309eb",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "9",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 17 Jul 2015",
+      "transactionId": "6477707F-9DE7-4E99-91E0-C44D19AD50D9",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/A5743278-DAC9-48BD-9533-D083FDC97DAD/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/A5743278-DAC9-48BD-9533-D083FDC97DAD",
+      "newBuild": false,
+      "pricePaid": 198000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3796c451bdab44cfe8ee22bbff2a9d8e38717c09",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "21",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 29 Jun 2015",
+      "transactionId": "A5743278-DAC9-48BD-9533-D083FDC97DAD",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/AEC4B3C4-F7E3-4942-AEB2-7CDDE4B4B47B/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/AEC4B3C4-F7E3-4942-AEB2-7CDDE4B4B47B",
+      "newBuild": false,
+      "pricePaid": 205000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ab49cd97a69bc82eae8773c608d60a22edaddecc",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "8",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 01 Dec 2014",
+      "transactionId": "AEC4B3C4-F7E3-4942-AEB2-7CDDE4B4B47B",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/A6E4851F-0891-42D0-9B1E-AC72B67BE3DA/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/A6E4851F-0891-42D0-9B1E-AC72B67BE3DA",
+      "newBuild": false,
+      "pricePaid": 195000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c7f3ab3cb0ece01831e3a7ac87a2bf690a856b33",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "4",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 21 Oct 2014",
+      "transactionId": "A6E4851F-0891-42D0-9B1E-AC72B67BE3DA",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/98670CC8-77FD-4EBA-9DDD-2EA582A0D3FC/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/98670CC8-77FD-4EBA-9DDD-2EA582A0D3FC",
+      "newBuild": false,
+      "pricePaid": 250000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/95f0c23cfb557df92505245ef39e74897b6350b6",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "26",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 28 Mar 2014",
+      "transactionId": "98670CC8-77FD-4EBA-9DDD-2EA582A0D3FC",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C4F59B0D-445D-4DD8-9871-46B52DF2B1A1/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C4F59B0D-445D-4DD8-9871-46B52DF2B1A1",
+      "newBuild": false,
+      "pricePaid": 194950,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/675714e29a2f5e0b62cb1d7c279a8ea0e34b6a61",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "23",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 28 Feb 2014",
+      "transactionId": "C4F59B0D-445D-4DD8-9871-46B52DF2B1A1",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5C2E2BC9-450E-4E4B-9447-E788768E7C6A/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5C2E2BC9-450E-4E4B-9447-E788768E7C6A",
+      "newBuild": false,
+      "pricePaid": 174950,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9c50faf0746bd0a01d402085066d2aaea169a50b",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "14",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 07 Feb 2014",
+      "transactionId": "5C2E2BC9-450E-4E4B-9447-E788768E7C6A",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/CCEF0664-5B97-4363-A335-6F2804B0F0DB/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/CCEF0664-5B97-4363-A335-6F2804B0F0DB",
+      "newBuild": false,
+      "pricePaid": 179950,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/864ec1cef49f5ee5693587a4270ef0e9c70116bf",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "11",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 08 Oct 2013",
+      "transactionId": "CCEF0664-5B97-4363-A335-6F2804B0F0DB",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/B7BF1F2D-AC3D-40CC-AE75-0FDB2EEA9311/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/B7BF1F2D-AC3D-40CC-AE75-0FDB2EEA9311",
+      "newBuild": false,
+      "pricePaid": 168500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3796c451bdab44cfe8ee22bbff2a9d8e38717c09",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "21",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 19 Jul 2013",
+      "transactionId": "B7BF1F2D-AC3D-40CC-AE75-0FDB2EEA9311",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/C7108F3E-034D-4C98-A419-E6400BD0B610/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/C7108F3E-034D-4C98-A419-E6400BD0B610",
+      "newBuild": false,
+      "pricePaid": 170000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/076ef8d91e5a802457462e20cf7ae936034525f9",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "24",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 30 Aug 2012",
+      "transactionId": "C7108F3E-034D-4C98-A419-E6400BD0B610",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/EAC13DE2-A6C7-4744-81C0-A285067A82CB/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/EAC13DE2-A6C7-4744-81C0-A285067A82CB",
+      "newBuild": false,
+      "pricePaid": 150000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/570fae2d7cd7bf63c98233433e1714a2ced7e65b",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "20",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 18 Mar 2011",
+      "transactionId": "EAC13DE2-A6C7-4744-81C0-A285067A82CB",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/8CBFF5CC-7349-4F1E-A124-88542C8F5462/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/8CBFF5CC-7349-4F1E-A124-88542C8F5462",
+      "newBuild": false,
+      "pricePaid": 161500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/632d1fb2a4f1d1a7ee77319197b9cb1ca7d309eb",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "9",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 25 Oct 2010",
+      "transactionId": "8CBFF5CC-7349-4F1E-A124-88542C8F5462",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/91EFD1D7-EA4F-44E6-B6ED-450BCC904C8D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/91EFD1D7-EA4F-44E6-B6ED-450BCC904C8D",
+      "newBuild": false,
+      "pricePaid": 170000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/153847baa116f1028b15ae3122a60bc90fd50f3d",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "19",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 07 Oct 2010",
+      "transactionId": "91EFD1D7-EA4F-44E6-B6ED-450BCC904C8D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/E1CA2EA1-C9D5-4507-A0D5-F4C572ADB4E4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/E1CA2EA1-C9D5-4507-A0D5-F4C572ADB4E4",
+      "newBuild": false,
+      "pricePaid": 159950,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3608f934ca7ca6b6d9649e43aa8a6d96196b14d4",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "10",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 18 Nov 2009",
+      "transactionId": "E1CA2EA1-C9D5-4507-A0D5-F4C572ADB4E4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/F87BA824-834B-4E32-A235-92461C1752DA/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/F87BA824-834B-4E32-A235-92461C1752DA",
+      "newBuild": false,
+      "pricePaid": 160000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3796c451bdab44cfe8ee22bbff2a9d8e38717c09",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "21",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 05 Nov 2009",
+      "transactionId": "F87BA824-834B-4E32-A235-92461C1752DA",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1B80A6FA-77BA-42AA-9279-46288E9F66CB/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1B80A6FA-77BA-42AA-9279-46288E9F66CB",
+      "newBuild": false,
+      "pricePaid": 157500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/864ec1cef49f5ee5693587a4270ef0e9c70116bf",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "11",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 30 Nov 2007",
+      "transactionId": "1B80A6FA-77BA-42AA-9279-46288E9F66CB",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/B9176194-B81B-4ECC-B790-A3BA9E4E3B71/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/B9176194-B81B-4ECC-B790-A3BA9E4E3B71",
+      "newBuild": false,
+      "pricePaid": 163000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9c50faf0746bd0a01d402085066d2aaea169a50b",
+        "county": "WARWICKSHIRE",
+        "district": "WARWICK",
+        "locality": "BISHOPS TACHBROOK",
+        "paon": "14",
+        "postcode": "CV33 9SF",
+        "street": "PENFOLD CLOSE",
+        "town": "LEAMINGTON SPA",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 03 Sep 2007",
+      "transactionId": "B9176194-B81B-4ECC-B790-A3BA9E4E3B71",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

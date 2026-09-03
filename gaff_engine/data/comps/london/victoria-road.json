@@ -1,0 +1,4047 @@
+{
+  "street": "VICTORIA ROAD",
+  "town": "LONDON",
+  "url": "http://landregistry.data.gov.uk/data/ppi/transaction-record.json?propertyAddress.street=VICTORIA+ROAD&propertyAddress.town=LONDON&_sort=-transactionDate&_pageSize=40",
+  "fetchedAt": "2026-07-15T22:04:25Z",
+  "count": 40,
+  "items": [
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-16AA-8052-E063-4804A8C06EE4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-16AA-8052-E063-4804A8C06EE4",
+      "newBuild": false,
+      "pricePaid": 730000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/287073b275200396fa01d645a8727b0a46408a42",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "locality": "WALTHAMSTOW",
+        "paon": "15",
+        "postcode": "E17 4JT",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 26 May 2026",
+      "transactionId": "5340B1C5-16AA-8052-E063-4804A8C06EE4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-14F5-8052-E063-4804A8C06EE4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-14F5-8052-E063-4804A8C06EE4",
+      "newBuild": false,
+      "pricePaid": 250000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/8bbaa5cdc1adcd20d7c8b3590f75e93d89dcc739",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "TRENTHAM COURT",
+        "postcode": "W3 6AD",
+        "saon": "FLAT 22",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 01 May 2026",
+      "transactionId": "5340B1C5-14F5-8052-E063-4804A8C06EE4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/50D10B83-B1C8-B8D0-E063-4704A8C08D98/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/50D10B83-B1C8-B8D0-E063-4704A8C08D98",
+      "newBuild": false,
+      "pricePaid": 345000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/26d9260f4c105c44093c1b752acb2b6afe0b3d11",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "TRENTHAM COURT",
+        "postcode": "W3 6AD",
+        "saon": "FLAT 42",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 17 Apr 2026",
+      "transactionId": "50D10B83-B1C8-B8D0-E063-4704A8C08D98",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-15E5-8052-E063-4804A8C06EE4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-15E5-8052-E063-4804A8C06EE4",
+      "newBuild": false,
+      "pricePaid": 445000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/f8ec34b838c0510b9d50cb59b9a5942560645975",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "STROUD GREEN",
+        "paon": "2",
+        "postcode": "N4 3SQ",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 09 Apr 2026",
+      "transactionId": "5340B1C5-15E5-8052-E063-4804A8C06EE4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-7322-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-7322-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 1405000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/a1930cce1f0efb35e51c205829dd3777c7543281",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "124",
+        "postcode": "N22 7XQ",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 20 Feb 2026",
+      "transactionId": "4E75C29D-7322-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-FA3F-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-FA3F-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 340000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/7579fc23a648cdadb9b6d99cce0c75b0e560e8d2",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "TRENTHAM COURT",
+        "postcode": "W3 6BF",
+        "saon": "FLAT 106",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 18 Feb 2026",
+      "transactionId": "4E75C29D-FA3F-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673E-CB87-D8EA-E063-4704A8C0BF7D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673E-CB87-D8EA-E063-4704A8C0BF7D",
+      "newBuild": false,
+      "pricePaid": 275000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/18f12503225697ecdd78a392620409ef10683f56",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "TRENTHAM COURT",
+        "postcode": "W3 6BF",
+        "saon": "FLAT 140",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 04 Feb 2026",
+      "transactionId": "4C1B673E-CB87-D8EA-E063-4704A8C0BF7D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673F-DCEF-D8EA-E063-4704A8C0BF7D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673F-DCEF-D8EA-E063-4704A8C0BF7D",
+      "newBuild": false,
+      "pricePaid": 909000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/8dd9b92532b62f781a29f5660aa22bc214b630b7",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "STROUD GREEN",
+        "paon": "6",
+        "postcode": "N4 3SQ",
+        "saon": "FIRST AND SECOND FLOOR FLAT",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/otherPropertyType",
+        "label": [
+          {
+            "_value": "other",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "other",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 09 Jan 2026",
+      "transactionId": "4C1B673F-DCEF-D8EA-E063-4704A8C0BF7D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C32-E48F-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C32-E48F-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 290000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/7298830292193c88dab8f0110ec4d0d750953ba7",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "locality": "KILBURN",
+        "paon": "51",
+        "postcode": "NW6 6TA",
+        "saon": "GROUND FLOOR FLAT C",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 15 Dec 2025",
+      "transactionId": "49E87C32-E48F-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C32-B62D-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C32-B62D-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 385000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1d00ccfa7a6f5dda4607ad0f8b66137b83a752ca",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "TRENTHAM COURT",
+        "postcode": "W3 6BF",
+        "saon": "FLAT 107",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 12 Dec 2025",
+      "transactionId": "49E87C32-B62D-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-F7FA-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-F7FA-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 300000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d535ffbab7bafafb95445468652b2222cd0dc57b",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "locality": "KILBURN",
+        "paon": "35",
+        "postcode": "NW6 6SX",
+        "saon": "FLAT D",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 11 Dec 2025",
+      "transactionId": "4777E0AE-F7FA-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-8752-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-8752-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 300000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1f35acd84ae90545c838346a57bea0ea0bff7e9e",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "EBBETT COURT",
+        "postcode": "W3 6BX",
+        "saon": "FLAT 122",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 08 Dec 2025",
+      "transactionId": "49E87C31-8752-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/50D10B83-B1C6-B8D0-E063-4704A8C08D98/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/50D10B83-B1C6-B8D0-E063-4704A8C08D98",
+      "newBuild": false,
+      "pricePaid": 300000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ae30f8640d265ca54ae33a725ae1b32dd91dfbec",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "TRENTHAM COURT",
+        "postcode": "W3 6AD",
+        "saon": "FLAT 19",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 05 Dec 2025",
+      "transactionId": "50D10B83-B1C6-B8D0-E063-4704A8C08D98",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-9191-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-9191-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 1699000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/57497dd840a5ba3bd76d3d48e41973158f28f8db",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "locality": "CHINGFORD",
+        "paon": "8",
+        "postcode": "E4 6BZ",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/detached",
+        "label": [
+          {
+            "_value": "Detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 03 Dec 2025",
+      "transactionId": "4777E0AE-9191-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-F7CD-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-F7CD-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 1085000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4e41b5112db6d8a30c7c0e348d0c65e34f5259d6",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "locality": "CHINGFORD",
+        "paon": "12",
+        "postcode": "E4 6BZ",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 03 Dec 2025",
+      "transactionId": "4777E0AE-F7CD-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-7314-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-7314-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 1185000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/59e0a8bae90701665b7af1d4621bbe4c6493c0c5",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "117",
+        "postcode": "N22 7XG",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 03 Nov 2025",
+      "transactionId": "4E75C29D-7314-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-85C7-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-85C7-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 500000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d33bb5763b80c8959abed25c7ef0bcbee9da5c78",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "locality": "WALTHAMSTOW",
+        "paon": "17",
+        "postcode": "E17 4JT",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 27 Oct 2025",
+      "transactionId": "49E87C31-85C7-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-7428-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-7428-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 1340000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/7bd6389c7b6de0fe6b1b7e93eb42133f90c2a7ec",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "239",
+        "postcode": "N22 7XH",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 27 Oct 2025",
+      "transactionId": "4E75C29D-7428-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-ADF2-1095-E063-4704A8C048D4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-ADF2-1095-E063-4704A8C048D4",
+      "newBuild": false,
+      "pricePaid": 970000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/0754f339167842a238166ad668b42a8bb2aecf5c",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "locality": "CHINGFORD",
+        "paon": "THE BUNGALOW, 6A",
+        "postcode": "E4 6BZ",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/detached",
+        "label": [
+          {
+            "_value": "Detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 23 Oct 2025",
+      "transactionId": "44F406B6-ADF2-1095-E063-4704A8C048D4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29C-C680-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29C-C680-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 470000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/8c501275ed1ce6022cbc91629ecddeff398d28b7",
+        "county": "GREATER LONDON",
+        "district": "ENFIELD",
+        "paon": "73",
+        "postcode": "N9 9SU",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 17 Oct 2025",
+      "transactionId": "4E75C29C-C680-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673E-CE1E-D8EA-E063-4704A8C0BF7D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673E-CE1E-D8EA-E063-4704A8C0BF7D",
+      "newBuild": false,
+      "pricePaid": 460000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/34ccd5d22dbc3653838ba9bf885c037485a0f75b",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "locality": "KILBURN",
+        "paon": "56",
+        "postcode": "NW6 6QA",
+        "saon": "GROUND FLOOR FLAT",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 30 Sep 2025",
+      "transactionId": "4C1B673E-CE1E-D8EA-E063-4704A8C0BF7D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673F-666A-D8EA-E063-4704A8C0BF7D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673F-666A-D8EA-E063-4704A8C0BF7D",
+      "newBuild": false,
+      "pricePaid": 1316000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c38d7aad9d35b11aa62c9f2440a4d6efb89699b6",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "113",
+        "postcode": "N22 7XG",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 29 Sep 2025",
+      "transactionId": "4C1B673F-666A-D8EA-E063-4704A8C0BF7D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E5-9137-60A9-E063-4804A8C0C25D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E5-9137-60A9-E063-4804A8C0C25D",
+      "newBuild": false,
+      "pricePaid": 400000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1a066dc066f439c608e1a2a9e496ad4befd207d9",
+        "county": "GREATER LONDON",
+        "district": "ENFIELD",
+        "paon": "107",
+        "postcode": "N9 9BD",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 16 Sep 2025",
+      "transactionId": "42C129E5-9137-60A9-E063-4804A8C0C25D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C32-33F2-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C32-33F2-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 1396000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/730b9dffd18b3313ad520319b2435063296062c3",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "255",
+        "postcode": "N22 7XH",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 12 Sep 2025",
+      "transactionId": "49E87C32-33F2-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-86D4-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-86D4-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 740000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/f009d9f44aeb30a52a7a0f1a7060f0f44f262e3f",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "locality": "KILBURN",
+        "paon": "123B",
+        "postcode": "NW6 6TD",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 08 Sep 2025",
+      "transactionId": "49E87C31-86D4-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/402A3A66-2663-A7DF-E063-4804A8C0B80D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/402A3A66-2663-A7DF-E063-4804A8C0B80D",
+      "newBuild": false,
+      "pricePaid": 1110000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/225ea1036221cf7d5877d5148711ae23cb283aca",
+        "county": "GREATER LONDON",
+        "district": "BARNET",
+        "paon": "18",
+        "postcode": "NW7 4SB",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 22 Aug 2025",
+      "transactionId": "402A3A66-2663-A7DF-E063-4804A8C0B80D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/402A3A65-738C-A7DF-E063-4804A8C0B80D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/402A3A65-738C-A7DF-E063-4804A8C0B80D",
+      "newBuild": false,
+      "pricePaid": 272500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/691b6b035ec176058ccff7314cad77a67523398e",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "EBBETT COURT",
+        "postcode": "W3 6BX",
+        "saon": "FLAT 135",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 13 Aug 2025",
+      "transactionId": "402A3A65-738C-A7DF-E063-4804A8C0B80D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29C-C6DB-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29C-C6DB-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 272500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/691b6b035ec176058ccff7314cad77a67523398e",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "EBBETT COURT",
+        "postcode": "W3 6BX",
+        "saon": "FLAT 135",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 13 Aug 2025",
+      "transactionId": "4E75C29C-C6DB-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-85B5-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C31-85B5-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 690000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/ace92f365b419b6618b16d844f262d758bb24eff",
+        "county": "GREATER LONDON",
+        "district": "BARNET",
+        "paon": "32",
+        "postcode": "NW7 4RY",
+        "saon": "FLAT 1",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 12 Aug 2025",
+      "transactionId": "49E87C31-85B5-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-F25E-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-F25E-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 1100000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/78254ad28be5e886739e2b52b1ce04240f72bda4",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "111",
+        "postcode": "N22 7XG",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 08 Aug 2025",
+      "transactionId": "4777E0AE-F25E-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7C9-938D-5B9D-E063-4704A8C0331E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7C9-938D-5B9D-E063-4704A8C0331E",
+      "newBuild": false,
+      "pricePaid": 491995,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c471d8e54e7b7990a7ef4f7b6c7fd014cdb131db",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "locality": "WALTHAMSTOW",
+        "paon": "2",
+        "postcode": "E17 4JU",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 04 Aug 2025",
+      "transactionId": "3DCCB7C9-938D-5B9D-E063-4704A8C0331E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E5-680A-60A9-E063-4804A8C0C25D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E5-680A-60A9-E063-4804A8C0C25D",
+      "newBuild": false,
+      "pricePaid": 250000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3bc7b05b0a84dbce5a7a7b156c72cc2152305ea9",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "TRENTHAM COURT",
+        "postcode": "W3 6AD",
+        "saon": "FLAT 28",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 01 Aug 2025",
+      "transactionId": "42C129E5-680A-60A9-E063-4804A8C0C25D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AF-99E2-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AF-99E2-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 1300000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/45b781ccdc065532f2597a627233874a11bdcb2c",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "36",
+        "postcode": "N22 7XD",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/otherPropertyType",
+        "label": [
+          {
+            "_value": "other",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "other",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 01 Aug 2025",
+      "transactionId": "4777E0AF-99E2-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7CA-3064-5B9D-E063-4704A8C0331E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7CA-3064-5B9D-E063-4704A8C0331E",
+      "newBuild": false,
+      "pricePaid": 755000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/52a5517f7a4bd04a6ff5a50fafd0a46b19569fc7",
+        "county": "GREATER LONDON",
+        "district": "BARNET",
+        "paon": "10",
+        "postcode": "NW7 4SB",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 31 Jul 2025",
+      "transactionId": "3DCCB7CA-3064-5B9D-E063-4704A8C0331E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-76A2-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-76A2-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 820000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/732ee0e251702bca686df5ace63cb6cf7ee23db7",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "196",
+        "postcode": "N22 7XQ",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 30 Jul 2025",
+      "transactionId": "4E75C29D-76A2-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-4628-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-4628-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 370000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/f0ff5c9260185e50c1bb1e308d8f16dc180d7df9",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "TRENTHAM COURT",
+        "postcode": "W3 6AD",
+        "saon": "FLAT 52",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 28 Jul 2025",
+      "transactionId": "4777E0AE-4628-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7CA-30C8-5B9D-E063-4704A8C0331E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7CA-30C8-5B9D-E063-4704A8C0331E",
+      "newBuild": false,
+      "pricePaid": 1280000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3082c57fdb9ce16dfd8e5addbe905dd6333beca0",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "locality": "WOOD GREEN",
+        "paon": "83",
+        "postcode": "N22 7XG",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 25 Jul 2025",
+      "transactionId": "3DCCB7CA-30C8-5B9D-E063-4704A8C0331E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/50D10B84-288D-B8D0-E063-4704A8C08D98/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/50D10B84-288D-B8D0-E063-4704A8C08D98",
+      "newBuild": false,
+      "pricePaid": 12150000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d2a1ce73eac6ef9160d5d79969231adaed82fff6",
+        "county": "GREATER LONDON",
+        "district": "KENSINGTON AND CHELSEA",
+        "paon": "22",
+        "postcode": "W8 5RG",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 24 Jul 2025",
+      "transactionId": "50D10B84-288D-B8D0-E063-4704A8C08D98",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3B5CE842-244E-EE3A-E063-4804A8C0D6F1/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3B5CE842-244E-EE3A-E063-4804A8C0D6F1",
+      "newBuild": false,
+      "pricePaid": 770000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/fb0c0978d47a17405dff26159ccb67b0f2715dc2",
+        "county": "GREATER LONDON",
+        "district": "RICHMOND UPON THAMES",
+        "paon": "5",
+        "postcode": "SW14 8EX",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 18 Jul 2025",
+      "transactionId": "3B5CE842-244E-EE3A-E063-4804A8C0D6F1",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-487E-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-487E-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 290000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/31a315d4baf60462074e04e5d39e54d435e05fd5",
+        "county": "GREATER LONDON",
+        "district": "EALING",
+        "paon": "EBBETT COURT",
+        "postcode": "W3 6BX",
+        "saon": "FLAT 176",
+        "street": "VICTORIA ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 11 Jul 2025",
+      "transactionId": "4777E0AE-487E-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

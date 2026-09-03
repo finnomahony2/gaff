@@ -1,0 +1,4039 @@
+{
+  "street": "BUCKINGHAM ROAD",
+  "town": "LONDON",
+  "url": "http://landregistry.data.gov.uk/data/ppi/transaction-record.json?propertyAddress.street=BUCKINGHAM+ROAD&propertyAddress.town=LONDON&_sort=-transactionDate&_pageSize=40",
+  "fetchedAt": "2026-07-14T11:26:42Z",
+  "count": 40,
+  "items": [
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-9C54-8052-E063-4804A8C06EE4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-9C54-8052-E063-4804A8C06EE4",
+      "newBuild": false,
+      "pricePaid": 970000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/61f93beee0f220c6fb749e4f71e9cf9e2d3b5a6d",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "paon": "69",
+        "postcode": "NW10 4RJ",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 01 May 2026",
+      "transactionId": "5340B1C5-9C54-8052-E063-4804A8C06EE4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-A016-8052-E063-4804A8C06EE4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/5340B1C5-A016-8052-E063-4804A8C06EE4",
+      "newBuild": false,
+      "pricePaid": 1500000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/eb472f918720bf2331a812659d639c37a805004d",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "WANSTEAD",
+        "paon": "28",
+        "postcode": "E11 2EB",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 22 Apr 2026",
+      "transactionId": "5340B1C5-A016-8052-E063-4804A8C06EE4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C32-347B-591C-E063-4704A8C00C31/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/49E87C32-347B-591C-E063-4704A8C00C31",
+      "newBuild": false,
+      "pricePaid": 1068000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/38eae9e6aa2e0c4c6d8c4a62256a541891317fa8",
+        "county": "GREATER LONDON",
+        "district": "HACKNEY",
+        "paon": "1",
+        "postcode": "N1 4DG",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 19 Dec 2025",
+      "transactionId": "49E87C32-347B-591C-E063-4704A8C00C31",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-ABDA-1095-E063-4704A8C048D4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-ABDA-1095-E063-4704A8C048D4",
+      "newBuild": false,
+      "pricePaid": 742000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/101d3970d4644e3a8e53c7edc451a6e89bf50f16",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "44",
+        "postcode": "E18 2NJ",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 21 Nov 2025",
+      "transactionId": "44F406B6-ABDA-1095-E063-4704A8C048D4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-93F6-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-93F6-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 420000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1d437f955ecd7aa73cd436c32026ec5214b9c49e",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "paon": "MCFADDEN COURT, 25",
+        "postcode": "E10 5GS",
+        "saon": "21",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 21 Nov 2025",
+      "transactionId": "4777E0AE-93F6-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-F5BF-5D59-E063-4804A8C09F8E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4777E0AE-F5BF-5D59-E063-4804A8C09F8E",
+      "newBuild": false,
+      "pricePaid": 950000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/a2c6b377a8a5ecbc6a544145388aaddfd5286ace",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "33",
+        "postcode": "E18 2NH",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 21 Nov 2025",
+      "transactionId": "4777E0AE-F5BF-5D59-E063-4804A8C09F8E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-11AC-1095-E063-4704A8C048D4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-11AC-1095-E063-4704A8C048D4",
+      "newBuild": false,
+      "pricePaid": 320000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c0c7e21e8882eb3e78cc3931fcaf6ab12a81fbc5",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "paon": "MCFADDEN COURT, 25",
+        "postcode": "E10 5GS",
+        "saon": "32",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 06 Nov 2025",
+      "transactionId": "44F406B6-11AC-1095-E063-4704A8C048D4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-5759-1095-E063-4704A8C048D4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-5759-1095-E063-4704A8C048D4",
+      "newBuild": false,
+      "pricePaid": 395000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9f4115b5e2f338e1d667e4bf5e17c54caedccb54",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "paon": "MCFADDEN COURT, 25",
+        "postcode": "E10 5GS",
+        "saon": "29",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 07 Oct 2025",
+      "transactionId": "44F406B6-5759-1095-E063-4704A8C048D4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-11A1-1095-E063-4704A8C048D4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B6-11A1-1095-E063-4704A8C048D4",
+      "newBuild": false,
+      "pricePaid": 407500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/d0cad2424095c4863956ed8fa65e0b8bba609b03",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "paon": "MCFADDEN COURT, 25",
+        "postcode": "E10 5GS",
+        "saon": "19",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 19 Sep 2025",
+      "transactionId": "44F406B6-11A1-1095-E063-4704A8C048D4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-13DA-8922-E063-4804A8C094D0/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4E75C29D-13DA-8922-E063-4804A8C094D0",
+      "newBuild": false,
+      "pricePaid": 1750000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/46ddb669538a8c1643082d92081e32cc820bfd8e",
+        "county": "GREATER LONDON",
+        "district": "HACKNEY",
+        "paon": "49",
+        "postcode": "N1 4JG",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 12 Sep 2025",
+      "transactionId": "4E75C29D-13DA-8922-E063-4804A8C094D0",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7C9-9D3F-5B9D-E063-4704A8C0331E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7C9-9D3F-5B9D-E063-4704A8C0331E",
+      "newBuild": false,
+      "pricePaid": 380000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/688a1cf402443ca4bc362dedcc8e6d502087653b",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "80",
+        "postcode": "E18 2NJ",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 07 Aug 2025",
+      "transactionId": "3DCCB7C9-9D3F-5B9D-E063-4704A8C0331E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E4-32C9-60A9-E063-4804A8C0C25D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E4-32C9-60A9-E063-4804A8C0C25D",
+      "newBuild": false,
+      "pricePaid": 1000000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/9a0dd7ff6e02c2294f4ce951464e4f08bb07ccb2",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "WANSTEAD",
+        "paon": "36",
+        "postcode": "E11 2EB",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 30 May 2025",
+      "transactionId": "42C129E4-32C9-60A9-E063-4804A8C0C25D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/34222872-31EB-4D2B-E063-4704A8C07853/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/34222872-31EB-4D2B-E063-4704A8C07853",
+      "newBuild": false,
+      "pricePaid": 875000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1d5fe9ad4cb2d4ddf07cf09cbfd82675f316c705",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "84",
+        "postcode": "E18 2NJ",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 14 Apr 2025",
+      "transactionId": "34222872-31EB-4D2B-E063-4704A8C07853",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/34222871-F3A3-4D2B-E063-4704A8C07853/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/34222871-F3A3-4D2B-E063-4704A8C07853",
+      "newBuild": false,
+      "pricePaid": 410000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/96a2716cd40757553f71c7c02f725c4332cdfb1d",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "WANSTEAD",
+        "paon": "18B",
+        "postcode": "E11 2EB",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 31 Mar 2025",
+      "transactionId": "34222871-F3A3-4D2B-E063-4704A8C07853",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673E-D72C-D8EA-E063-4704A8C0BF7D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/4C1B673E-D72C-D8EA-E063-4704A8C0BF7D",
+      "newBuild": false,
+      "pricePaid": 890000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/27a705171b71c3b71382581c77746d47e77281f1",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "paon": "61",
+        "postcode": "E18 2NH",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 27 Mar 2025",
+      "transactionId": "4C1B673E-D72C-D8EA-E063-4704A8C0BF7D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/36A61A94-CDFC-DEF2-E063-4704A8C046AE/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/36A61A94-CDFC-DEF2-E063-4704A8C046AE",
+      "newBuild": false,
+      "pricePaid": 426250,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/3118d8c6c32e85978db9f643785f673b2de53d67",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "paon": "15",
+        "postcode": "NW10 4RP",
+        "saon": "GROUND FLOOR FLAT",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 11 Mar 2025",
+      "transactionId": "36A61A94-CDFC-DEF2-E063-4704A8C046AE",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/34222871-E937-4D2B-E063-4704A8C07853/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/34222871-E937-4D2B-E063-4704A8C07853",
+      "newBuild": false,
+      "pricePaid": 427000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/a25a71b805532c048723960e660ec36518b1974c",
+        "county": "GREATER LONDON",
+        "district": "HACKNEY",
+        "paon": "19",
+        "postcode": "N1 4DG",
+        "saon": "SECOND FLOOR FLAT",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 07 Mar 2025",
+      "transactionId": "34222871-E937-4D2B-E063-4704A8C07853",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/31C68072-5A11-FEE3-E063-4804A8C04F37/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/31C68072-5A11-FEE3-E063-4804A8C04F37",
+      "newBuild": false,
+      "pricePaid": 950000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/606b77e1ac37cb9ef58dde380f04865a95d745c7",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "78",
+        "postcode": "E18 2NJ",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Mon, 03 Mar 2025",
+      "transactionId": "31C68072-5A11-FEE3-E063-4804A8C04F37",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2F7F2B42-9E30-E08F-E063-4804A8C05A49/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2F7F2B42-9E30-E08F-E063-4804A8C05A49",
+      "newBuild": false,
+      "pricePaid": 530000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/b234e3da35a79bfada966d5bba595d8c14df0cc2",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "8B",
+        "postcode": "N22 7SR",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 05 Feb 2025",
+      "transactionId": "2F7F2B42-9E30-E08F-E063-4804A8C05A49",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7608-8EF4-BDF9-E063-4804A8C0672F/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7608-8EF4-BDF9-E063-4804A8C0672F",
+      "newBuild": false,
+      "pricePaid": 580000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/c2492a4eeb032e13a8d14f8e5b738e2e5e386db2",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "8A",
+        "postcode": "N22 7SR",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 16 Jan 2025",
+      "transactionId": "2D4D7608-8EF4-BDF9-E063-4804A8C0672F",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B7-215F-1095-E063-4704A8C048D4/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/44F406B7-215F-1095-E063-4704A8C048D4",
+      "newBuild": false,
+      "pricePaid": 325000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/211b89a747eb469f21099c2640398bb7332fbfb2",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "paon": "12B",
+        "postcode": "NW10 4RR",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Sun, 05 Jan 2025",
+      "transactionId": "44F406B7-215F-1095-E063-4704A8C048D4",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7609-3F45-BDF9-E063-4804A8C0672F/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7609-3F45-BDF9-E063-4804A8C0672F",
+      "newBuild": false,
+      "pricePaid": 390000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/494d032bbe1cc2e850a981ee7d91652b811773a4",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "HILLBORO COURT",
+        "postcode": "E18 2NQ",
+        "saon": "FLAT 2",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 11 Dec 2024",
+      "transactionId": "2D4D7609-3F45-BDF9-E063-4804A8C0672F",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2ACACE8C-FCBE-295E-E063-4804A8C0B0EB/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2ACACE8C-FCBE-295E-E063-4804A8C0B0EB",
+      "newBuild": false,
+      "pricePaid": 327500,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/e7cdf5e7e42d55277b5b6439fc1276d4ce96582a",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "DORCHESTER COURT",
+        "postcode": "E18 2NG",
+        "saon": "FLAT 15",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 05 Dec 2024",
+      "transactionId": "2ACACE8C-FCBE-295E-E063-4804A8C0B0EB",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7609-E569-BDF9-E063-4804A8C0672F/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7609-E569-BDF9-E063-4804A8C0672F",
+      "newBuild": false,
+      "pricePaid": 357000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/a55141d69b5e19017bf01fc3fa2341769c651f0a",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "DORCHESTER COURT",
+        "postcode": "E18 2NG",
+        "saon": "FLAT 24",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 04 Dec 2024",
+      "transactionId": "2D4D7609-E569-BDF9-E063-4804A8C0672F",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7608-8FC8-BDF9-E063-4804A8C0672F/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7608-8FC8-BDF9-E063-4804A8C0672F",
+      "newBuild": false,
+      "pricePaid": 430000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/363ea184c17b4c68bb9e5e5bc3e4c110c562b6a2",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "paon": "9A",
+        "postcode": "E10 5NG",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 29 Nov 2024",
+      "transactionId": "2D4D7608-8FC8-BDF9-E063-4804A8C0672F",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/34222872-78E3-4D2B-E063-4704A8C07853/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/34222872-78E3-4D2B-E063-4704A8C07853",
+      "newBuild": false,
+      "pricePaid": 2350000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/b3cf6513772744253c9376a256905dd56b3d9a2b",
+        "county": "GREATER LONDON",
+        "district": "HACKNEY",
+        "paon": "84",
+        "postcode": "N1 4JE",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 29 Nov 2024",
+      "transactionId": "34222872-78E3-4D2B-E063-4704A8C07853",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AB-CB6A-52B4-E063-4804A8C05948/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AB-CB6A-52B4-E063-4804A8C05948",
+      "newBuild": false,
+      "pricePaid": 756000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/0112c49d2691b30839dbe366d738c28bd1f2f624",
+        "county": "GREATER LONDON",
+        "district": "HACKNEY",
+        "paon": "67",
+        "postcode": "N1 4JG",
+        "saon": "FLAT A",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 22 Nov 2024",
+      "transactionId": "2859C1AB-CB6A-52B4-E063-4804A8C05948",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/34222872-7898-4D2B-E063-4704A8C07853/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/34222872-7898-4D2B-E063-4704A8C07853",
+      "newBuild": false,
+      "pricePaid": 1900000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/df760d34aecd7acd7d678e1b24801f3b2510ca0d",
+        "county": "GREATER LONDON",
+        "district": "HACKNEY",
+        "paon": "100",
+        "postcode": "N1 4JE",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 22 Nov 2024",
+      "transactionId": "34222872-7898-4D2B-E063-4704A8C07853",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E5-6B92-60A9-E063-4804A8C0C25D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E5-6B92-60A9-E063-4804A8C0C25D",
+      "newBuild": false,
+      "pricePaid": 360000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/93832f10a542126c2bf898980aff58199325524a",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "DORCHESTER COURT",
+        "postcode": "E18 2NG",
+        "saon": "ROOFSPACE",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/otherPropertyType",
+        "label": [
+          {
+            "_value": "other",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "other",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 21 Nov 2024",
+      "transactionId": "42C129E5-6B92-60A9-E063-4804A8C0C25D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E4-74D5-60A9-E063-4804A8C0C25D/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/42C129E4-74D5-60A9-E063-4804A8C0C25D",
+      "newBuild": false,
+      "pricePaid": 916000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/873ae602b6ba4aa00ef352e6b152e309de6eebe1",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "66",
+        "postcode": "E18 2NJ",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Fri, 15 Nov 2024",
+      "transactionId": "42C129E4-74D5-60A9-E063-4804A8C0C25D",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7609-3A39-BDF9-E063-4804A8C0672F/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2D4D7609-3A39-BDF9-E063-4804A8C0672F",
+      "newBuild": false,
+      "pricePaid": 700000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/6ebe5a7dd6f7147c406e3794d6229ec1deea28f0",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "paon": "84",
+        "postcode": "NW10 4RR",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 22 Oct 2024",
+      "transactionId": "2D4D7609-3A39-BDF9-E063-4804A8C0672F",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AC-3BF5-52B4-E063-4804A8C05948/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AC-3BF5-52B4-E063-4804A8C05948",
+      "newBuild": false,
+      "pricePaid": 400000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/eb871cb98836328ecc948bf319b14565fd1130f4",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "HILLBORO COURT",
+        "postcode": "E18 2NQ",
+        "saon": "FLAT 6",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 15 Oct 2024",
+      "transactionId": "2859C1AC-3BF5-52B4-E063-4804A8C05948",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7CA-C59C-5B9D-E063-4704A8C0331E/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/3DCCB7CA-C59C-5B9D-E063-4704A8C0331E",
+      "newBuild": false,
+      "pricePaid": 230000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/fb21e014001f76ca9749299142a29c8952e5e86d",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "paon": "58B",
+        "postcode": "NW10 4RR",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 23 Jul 2024",
+      "transactionId": "3DCCB7CA-C59C-5B9D-E063-4704A8C0331E",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AB-CA0B-52B4-E063-4804A8C05948/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AB-CA0B-52B4-E063-4804A8C05948",
+      "newBuild": false,
+      "pricePaid": 1075000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/4505a4604f11a60435f114bb0179bca3fdbde56f",
+        "county": "GREATER LONDON",
+        "district": "HACKNEY",
+        "paon": "5A",
+        "postcode": "N1 4DG",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/detached",
+        "label": [
+          {
+            "_value": "Detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Tue, 11 Jun 2024",
+      "transactionId": "2859C1AB-CA0B-52B4-E063-4804A8C05948",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1C3E72FE-17C5-F410-E063-4804A8C0DFA6/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1C3E72FE-17C5-F410-E063-4804A8C0DFA6",
+      "newBuild": false,
+      "pricePaid": 709685,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/262e67ae41d2060b1335c5d9d480723a47344b9e",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "36",
+        "postcode": "E18 2NJ",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/terraced",
+        "label": [
+          {
+            "_value": "Terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "terraced",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 29 May 2024",
+      "transactionId": "1C3E72FE-17C5-F410-E063-4804A8C0DFA6",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1A0C5C63-8091-7CBE-E063-4804A8C06C96/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1A0C5C63-8091-7CBE-E063-4804A8C06C96",
+      "newBuild": false,
+      "pricePaid": 310000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/e0fa1ff07eb1ca67d211621a3f6daf89bb66f468",
+        "county": "GREATER LONDON",
+        "district": "REDBRIDGE",
+        "locality": "SOUTH WOODFORD",
+        "paon": "DORCHESTER COURT",
+        "postcode": "E18 2NG",
+        "saon": "FLAT 22",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 09 May 2024",
+      "transactionId": "1A0C5C63-8091-7CBE-E063-4804A8C06C96",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AB-CB97-52B4-E063-4804A8C05948/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/leasehold",
+        "label": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Leasehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AB-CB97-52B4-E063-4804A8C05948",
+      "newBuild": false,
+      "pricePaid": 435000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/1a174d62d635176d57a54704d9fa3dd27b66cec3",
+        "county": "GREATER LONDON",
+        "district": "WALTHAM FOREST",
+        "paon": "MCFADDEN COURT, 25",
+        "postcode": "E10 5GS",
+        "saon": "38",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/flat-maisonette",
+        "label": [
+          {
+            "_value": "Flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "flat-maisonette",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/standardPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Standard price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 03 Apr 2024",
+      "transactionId": "2859C1AB-CB97-52B4-E063-4804A8C05948",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1775CCF7-F540-38BA-E063-4704A8C05A7C/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1775CCF7-F540-38BA-E063-4704A8C05A7C",
+      "newBuild": false,
+      "pricePaid": 585000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/537cdb8c59f2ccbf23a88cbaed05bb0fb60c9bd2",
+        "county": "GREATER LONDON",
+        "district": "BRENT",
+        "paon": "9",
+        "postcode": "NW10 4RP",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Thu, 28 Mar 2024",
+      "transactionId": "1775CCF7-F540-38BA-E063-4704A8C05A7C",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/1EAE3DF7-699D-9EB1-E063-4704A8C09D02/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/1EAE3DF7-699D-9EB1-E063-4704A8C09D02",
+      "newBuild": false,
+      "pricePaid": 685000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/8f102b757dbee05d97752bf410666adab174599c",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "5",
+        "postcode": "N22 7SR",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 27 Mar 2024",
+      "transactionId": "1EAE3DF7-699D-9EB1-E063-4704A8C09D02",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_about": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AC-FC4E-52B4-E063-4804A8C05948/current",
+      "estateType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/freehold",
+        "label": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Freehold",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "hasTransaction": "http://landregistry.data.gov.uk/data/ppi/transaction/2859C1AC-FC4E-52B4-E063-4804A8C05948",
+      "newBuild": false,
+      "pricePaid": 765000,
+      "propertyAddress": {
+        "_about": "http://landregistry.data.gov.uk/data/ppi/address/8f102b757dbee05d97752bf410666adab174599c",
+        "county": "GREATER LONDON",
+        "district": "HARINGEY",
+        "paon": "5",
+        "postcode": "N22 7SR",
+        "street": "BUCKINGHAM ROAD",
+        "town": "LONDON",
+        "type": [
+          "http://landregistry.data.gov.uk/def/common/BS7666Address"
+        ]
+      },
+      "propertyType": {
+        "_about": "http://landregistry.data.gov.uk/def/common/semi-detached",
+        "label": [
+          {
+            "_value": "Semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "semi-detached",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "recordStatus": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/add",
+        "label": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Add",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionCategory": {
+        "_about": "http://landregistry.data.gov.uk/def/ppi/additionalPricePaidTransaction",
+        "label": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "prefLabel": [
+          {
+            "_value": "Additional price paid transaction",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ]
+      },
+      "transactionDate": "Wed, 27 Mar 2024",
+      "transactionId": "2859C1AC-FC4E-52B4-E063-4804A8C05948",
+      "type": [
+        {
+          "_about": "http://landregistry.data.gov.uk/def/ppi/TransactionRecord",
+          "label": [
+            {
+              "_value": "TransactionRecord",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "street": "ST OSWALD'S PLACE",
+  "town": "LONDON",
+  "url": "http://landregistry.data.gov.uk/data/ppi/transaction-record.json?propertyAddress.street=ST+OSWALD%27S+PLACE&propertyAddress.town=LONDON&_sort=-transactionDate&_pageSize=40",
+  "fetchedAt": "2026-07-16T16:19:07Z",
+  "count": 0,
+  "items": []
+}

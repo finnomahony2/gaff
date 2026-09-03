@@ -1,0 +1,103 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # No install step on purpose: the engine is stdlib-only, so the suite
+      # running against a bare interpreter is itself the check that it stayed
+      # that way. A new third-party import would fail here first.
+      - name: Engine suite
+        run: |
+          failed=0
+          for f in tests/test_*.py; do
+            python3 "$f" || { echo "FAILED $f"; failed=1; }
+          done
+          exit $failed
+
+      - name: Surface suites
+        run: |
+          python3 surfaces/mcp_client_test.py
+          python3 surfaces/cli_test.py
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python3 -m pip install --upgrade build twine
+      - run: python3 -m build
+      - name: Check metadata and that the warm cache is in the wheel
+        run: |
+          python3 -m twine check dist/*
+          python3 - <<'PY'
+          import glob, zipfile, sys
+          whl = glob.glob("dist/*.whl")[0]
+          names = zipfile.ZipFile(whl).namelist()
+          for kind in ("comps", "hpi", "flips"):
+              n = sum(1 for x in names if x.startswith("gaff_engine/data/%s/" % kind))
+              print("%s: %d files" % (kind, n))
+              if not n:
+                  sys.exit("warm cache %r missing from the wheel" % kind)
+          # EPC must NOT be in the wheel: its address fields are OS/Royal Mail
+          # IP licensed for energy-performance purposes only. See
+          # docs/data-strategy.md in the lab repo.
+          epc = [x for x in names if x.startswith("gaff_engine/data/epc/")]
+          if epc:
+              sys.exit("EPC data must not ship: %d file(s) found in the wheel" % len(epc))
+          # The loose data files are just as load-bearing: without them the value,
+          # eval and financial paths raise on a fresh install.
+          for fn in ("comps_enriched.json", "round1_scores.json",
+                     "round2_scores.json", "invest_pool.json"):
+              if "gaff_engine/data/%s" % fn not in names:
+                  sys.exit("data file %r missing from the wheel" % fn)
+          print("loose data files: all present")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  # Publishing is deliberately manual: it runs only on a published release and
+  # needs the PYPI_API_TOKEN secret to exist. No token, no publish, no failure.
+  publish:
+    needs: build
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python3 -m pip install --upgrade twine
+      - name: Publish to PyPI
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: |
+          if [ -z "$TWINE_PASSWORD" ]; then
+            echo "PYPI_API_TOKEN not set — skipping publish"; exit 0
+          fi
+          python3 -m twine upload dist/*

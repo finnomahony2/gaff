@@ -1,0 +1,43 @@
+{
+  "id": "10000001",
+  "channel": "RES_LET",
+  "transactionType": "RENT",
+  "status": {"published": true, "archived": false},
+  "text": {
+    "description": "A well proportioned four bedroom period house arranged over three floors, with a west facing garden, a bay window to the front reception and a skylit kitchen at garden level.",
+    "propertyPhrase": "4 bedroom terraced house",
+    "disclaimer": "<b>Disclaimer</b> - Property reference SAMPLE_L. Details are provided for illustration only.",
+    "shareText": "Check out this 4 bedroom terraced house",
+    "shortDescription": "4 bedroom terraced house to rent"
+  },
+  "prices": {"primaryPrice": "£8,500 pcm", "secondaryPrice": "£1,962 pw", "displayPriceQualifier": ""},
+  "address": {
+    "displayAddress": "Sample Street, \nExampleton, N1",
+    "countryCode": "GB", "ukCountry": "England", "outcode": "N1", "incode": "0QY"
+  },
+  "keyFeatures": ["Grade II listed", "West facing garden", "Bay window", "Four bedrooms"],
+  "images": [{"url": "https://media.example.com/photo01.jpeg", "caption": "Reception"}],
+  "floorplans": [{"url": "https://media.example.com/floorplan01.gif", "caption": "Floorplan"}],
+  "customer": {
+    "branchId": 1, "branchName": "Exampleton", "branchDisplayName": "Sample Lettings, Exampleton",
+    "companyName": "Sample Lettings Ltd", "companyTradingName": "Sample Lettings",
+    "customerProfileUrl": "/estate-agents/agent/Sample-Lettings/Exampleton-1.html"
+  },
+  "location": {"latitude": 51.537419, "longitude": -0.104993, "pinType": "ACCURATE_POINT", "showMap": true},
+  "nearestStations": [
+    {"name": "Exampleton Central", "types": ["OVERGROUND"], "distance": 0.4, "unit": "miles"},
+    {"name": "Sample Park", "types": ["LONDON_UNDERGROUND"], "distance": 0.7, "unit": "miles"}
+  ],
+  "sizings": [
+    {"unit": "sqft", "minimumSize": null, "maximumSize": 1844, "displayUnit": "sq ft"},
+    {"unit": "sqm", "minimumSize": null, "maximumSize": 171, "displayUnit": "sq m"}
+  ],
+  "epcGraphs": [{"url": "https://media.example.com/epc01.png", "caption": "EPC"}],
+  "bedrooms": 4,
+  "bathrooms": 2,
+  "listingHistory": {"listingUpdateReason": "Added on 10/07/2026"},
+  "tenure": {"tenureType": null, "yearsRemainingOnLease": null, "message": null},
+  "lettings": {"letAvailableDate": "17/07/2026", "deposit": 11769, "minimumTermInMonths": 12, "letType": "Long term"},
+  "propertySubType": "Terraced",
+  "soldPropertyType": "TERRACED"
+}

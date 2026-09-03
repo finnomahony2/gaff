@@ -1,0 +1,138 @@
+{
+ "version": 3,
+ "updated": "2026-07-12",
+ "subject": "Sam",
+ "_note": "A DEMO profile. It carries the taste MODEL (axis weights, scoring notes, named loves) so the engine behaves exactly as documented, but the person is fictional. Replace it with your own: the weights are the part you are meant to change.",
+ "mission": {
+  "primary": "rent with a housemate",
+  "secondary": "watch for-sale stock to build value-spotting judgement",
+  "rent_pcm": {
+   "min": 4000,
+   "max": 10000,
+   "gravity": 5000,
+   "sweet_spot": [
+    4500,
+    6500
+   ]
+  },
+  "buy_watch_band_gbp": {
+   "core": [
+    1000000,
+    1350000
+   ],
+   "dream": 2900000
+  },
+  "area": "A drawn city polygon rather than a named postcode list",
+  "area_confidence": "rough guide, open to exploration",
+  "current_home": {
+   "where": "Southwark",
+   "sqft": 700,
+   "baths": 1,
+   "outdoor": false,
+   "verdict": "characterful and loved, upgrading on size/baths/outdoor"
+  }
+ },
+ "weights": {
+  "light_and_volume": 10,
+  "outdoor_space": 9,
+  "character_bones": 8.5,
+  "width_proportion_flow": 8,
+  "street_scene": 8,
+  "raw_size_threshold": 6,
+  "design_finish": 4,
+  "station_proximity": 0.5
+ },
+ "scoring_notes": {
+  "light_and_volume": "ceiling height, window count/size, aspects, skylights, vaulted/double-height; penalise dark lower floors and single-aspect mews",
+  "outdoor_space": "garden > roof terrace > balconies; inside-outside flow (glazed doors from kitchen/living) is a bonus; great terrace can carry a listing",
+  "character_bones": "two accepted flavours: (a) Victorian period: brick, bay windows, natural floorboards, fireplaces, cornicing; (b) exceptional one-off: warehouse/pub/architect/boat. Enemy = bland/generic",
+  "width_proportion_flow": "double-fronted = strong bonus; skinny/narrow = kill; layout must flow",
+  "street_scene": "score the street via maps: trees, neighbouring stock quality, garden squares, market streets; bad street kills | UNTESTED in round 1 (location-blind human); validate round 2",
+  "raw_size_threshold": "fail <900 sqft; fine 900-1100 if wide; comfortable 1100-1600; diminishing above",
+  "design_finish": "rentals: finish is real but modulates within ~1 point; carpets/marble/cabinets get named yet 9s still land when character+light are exceptional",
+  "floor_position_rule": "lower/raised-ground ideal WITH direct garden access; top floor fine with terrace/light"
+ },
+ "anti_signals": [
+  "bland/corporate interior",
+  "painted-over floorboards, carpets",
+  "long thin galley kitchen",
+  "narrow plot / constricted layout",
+  "dark lower floors, single aspect",
+  "shared-only outdoor space (penalty -3)",
+  "bad street scene (kill)",
+  "generic new-build estate (inferred, unconfirmed)",
+  "marble finishes (named 'hate')",
+  "bedroom carpets (non-fatal, -0.5 to -1)",
+  "modern kitchen in a period house (mild)",
+  "cheap/careless spec (flip laminate, grey landlord refurb) - kill",
+  "open-plan-only living (no separate living room) - dock"
+ ],
+ "hard_constraints": {
+  "min_beds": 2,
+  "min_baths": 2,
+  "outdoor_space": "required (private strongly preferred; shared-only = -3 penalty not fail)",
+  "min_sqft": 900,
+  "note": "real size gate is usable width/layout, not raw sqft"
+ },
+ "taste_loves_named": [
+  "double-fronted width",
+  "curved bay / curved triple glazing",
+  "double-height spaces",
+  "wisteria/kerb planting",
+  "exposed brick",
+  "colour-drenched period rooms",
+  "Crittall-style glazing",
+  "skylit kitchens",
+  "big terraces on penthouses",
+  "conservatories"
+ ],
+ "calibration": {
+  "round1": {
+   "date": "2026-07-12",
+   "mae": 1.27,
+   "spearman": 0.77,
+   "top5_overlap": "3/5",
+   "top2": "exact set, order flipped",
+   "engine": "text-only",
+   "human": "location-blind, voice-note ratings"
+  },
+  "rules": {
+   "new_build_cap": "soft ceiling 6.5-7 WITH exceptional-view/terrace exception",
+   "new_build_typical": [
+    3,
+    5
+   ],
+   "condition_floor_landlord_special": 2.5,
+   "modernist_icon_cap": 4.5,
+   "size_threshold_enforced": "no bonus above ~1700 sqft",
+   "character_intensity": "ordinary-nice period ~6.5; 8+ needs distinctiveness",
+   "price_within_band": "gate + tiebreak only, never a scoring input",
+   "outdoor_rule": "softens under high character; never for bland buildings",
+   "mews": "judge per property; double height flips darkness prior",
+   "rating_input": "voice/language native; engine converts to numbers",
+   "condition_axis_split": "kill CHEAP/CARELESS (flip spec, laminate, bad photos); AGED/ECLECTIC/WARM with bones is neutral-to-positive",
+   "separate_living_room": "open-plan-only = dock; wants a distinct living room or a second reception",
+   "furnishing": "fixable - score bones, suggest unfurnished; dock only when it signals cheapness",
+   "bed_count_shape": "ideal 3-4 beds; 5-6 = mild wrong-shaped dock",
+   "staging_flag": "carry a staging-inflation flag on beautifully photographed listings",
+   "dual_output": "predicted reaction + viewing flags (floorplan catches) as separate outputs"
+  },
+  "round2": {
+   "date": "2026-07-12",
+   "mae": 1.35,
+   "spearman": 0.79,
+   "top3_overlap": "2/3",
+   "engine": "text + photos + floorplans",
+   "image_ablation": {
+    "text_mae": 1.64,
+    "final_mae": 1.35,
+    "text_spearman": 0.63,
+    "final_spearman": 0.79,
+    "helped": 7,
+    "hurt": 4
+   },
+   "anchoring_check": "passed - scores moved against leaked commentary both directions",
+   "street_axis": "still untested - he skips maps on unexciting pools (motivation-gated)"
+  }
+ }
+}

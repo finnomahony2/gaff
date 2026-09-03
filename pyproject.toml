@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaff-engine"
+version = "0.1.0"
+description = "A property-taste engine: scores UK homes against a person's stated taste, and prices them against open sold-price data."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+keywords = ["property", "uk", "land-registry", "epc", "mcp"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+# No runtime dependencies. The engine is deliberately stdlib-only: it is meant
+# to be dropped into someone else's environment (including an MCP host) without
+# dragging a dependency tree in behind it.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/finnomahony2/gaff"
+Source = "https://github.com/finnomahony2/gaff"
+
+[project.scripts]
+# Both surfaces ship inside the package (BACKLOG R2/R3): `gaff` is the CLI the
+# skill folder also calls, `gaff-mcp` is the stdio MCP server.
+gaff = "gaff_engine.tools:cli_main"
+gaff-mcp = "gaff_engine.mcp:main"
+
+[tool.setuptools]
+# Explicit: the warm cache under gaff_engine/data must travel with the package,
+# otherwise a fresh install answers nothing until the user fetches everything.
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["gaff_engine*"]
+
+[tool.setuptools.package-data]
+# Everything under data/, at any depth. Listing the kinds individually is how
+# the first cut of this silently shipped a wheel with no flips data and none of
+# the loose files, so the pattern is deliberately broad and CI asserts on the
+# built wheel rather than on this list.
+gaff_engine = ["data/*.json", "data/**/*.json"]

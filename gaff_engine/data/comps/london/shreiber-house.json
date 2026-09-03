@@ -1,0 +1,8 @@
+{
+  "street": "SHREIBER HOUSE",
+  "town": "LONDON",
+  "url": "http://landregistry.data.gov.uk/data/ppi/transaction-record.json?propertyAddress.street=SHREIBER+HOUSE&propertyAddress.town=LONDON&_sort=-transactionDate&_pageSize=40",
+  "fetchedAt": "2026-07-15T19:57:22Z",
+  "count": 0,
+  "items": []
+}

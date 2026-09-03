@@ -1,0 +1,37 @@
+{
+  "id": "10000002",
+  "channel": "RES_BUY",
+  "transactionType": "BUY",
+  "status": {"published": true, "archived": false},
+  "text": {
+    "description": "An attractive and versatile two bedroom apartment on the edge of the Sample Estate, with a private balcony, generous ceiling heights and a share of the freehold.",
+    "propertyPhrase": "2 bedroom apartment",
+    "disclaimer": "<b>Disclaimer</b> - Property reference SAMPLE_B.",
+    "shareText": "Check out this 2 bedroom apartment",
+    "pageTitle": "2 bedroom apartment for sale in Sample Estate",
+    "shortDescription": "2 bedroom apartment for sale"
+  },
+  "prices": {"primaryPrice": "Guide Price £1,150,000", "displayPriceQualifier": "Guide Price"},
+  "address": {
+    "displayAddress": "Sample Estate, \nExampleton, EC2Y",
+    "countryCode": "GB", "ukCountry": "England", "outcode": "EC2Y", "incode": "8DD"
+  },
+  "keyFeatures": ["Two bedrooms", "Private balcony", "Share of freehold", "Chain free"],
+  "images": [{"url": "https://media.example.com/photo02.jpeg", "caption": "Living room"}],
+  "floorplans": [{"url": "https://media.example.com/floorplan02.gif", "caption": "Floorplan"}],
+  "customer": {
+    "branchId": 2, "branchName": "City", "branchDisplayName": "Sample Sales, City",
+    "companyName": "Sample Sales Ltd", "companyTradingName": "Sample Sales",
+    "customerProfileUrl": "/estate-agents/agent/Sample-Sales/City-2.html"
+  },
+  "location": {"latitude": 51.5202, "longitude": -0.0937, "pinType": "APPROXIMATE_POINT", "showMap": true},
+  "nearestStations": [{"name": "Sample Street", "types": ["LONDON_UNDERGROUND"], "distance": 0.2, "unit": "miles"}],
+  "sizings": [{"unit": "sqm", "minimumSize": null, "maximumSize": 100, "displayUnit": "sq m"}],
+  "epcGraphs": [{"url": "https://media.example.com/epc02.png", "caption": "EPC"}],
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "listingHistory": {"listingUpdateReason": "Added on 27/05/2026"},
+  "tenure": {"tenureType": "LEASEHOLD", "yearsRemainingOnLease": 89, "message": null},
+  "propertySubType": "Apartment",
+  "soldPropertyType": "FLAT"
+}

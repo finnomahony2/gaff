@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Skill surface: the CLI Claude runs via Bash.
+
+Mirror image of the MCP server's constraints: here stdout is free, so results
+go there and progress goes to stderr as it happens — the property that removed
+the need for a background job runner.
+
+The implementation lives in ``gaff_engine.tools.cli_main`` (BACKLOG R2), so
+this script is only an entry point: copy this folder anywhere and it works
+wherever ``gaff_engine`` is pip-installed, via the plain package import below.
+The except branch exists ONLY for an uninstalled source tree (the lab, or the
+assembled repo before ``pip install``): it walks up from this file looking for
+the package, because a directly-executed script gets its own directory on
+sys.path, not the repo root.
+"""
+import sys
+
+try:
+    from gaff_engine.tools import cli_main
+except ImportError:
+    import os
+    _d = os.path.dirname(os.path.abspath(__file__))
+    while True:
+        parent = os.path.dirname(_d)
+        if parent == _d:
+            raise
+        _d = parent
+        if os.path.isdir(os.path.join(_d, "gaff_engine")):
+            sys.path.insert(0, _d)
+            break
+    from gaff_engine.tools import cli_main
+
+if __name__ == "__main__":
+    sys.exit(cli_main())
