@@ -312,12 +312,15 @@ def _hpi_region(district: Any) -> Optional[str]:
     """District → UK HPI region slug: lower-cased, hyphenated ("STRATFORD-ON-
     AVON" → "stratford-on-avon", "WARWICK" → "warwick").
 
-    Deliberately NOT hpi.region_for, whose unknown-area fallback is the
-    London-wide series — fine for a London listing engine, silently wrong as
-    a market comparator for a Warwickshire resale. This mapping is
-    fail-closed instead: a slug the HPI endpoint does not recognise fetches
-    nothing and the pair is skipped, so a record never carries the wrong
-    market."""
+    Still not hpi.region_for, but no longer because that function was unsafe:
+    its unknown-area fallback WAS the London-wide series — fine for a London
+    listing engine, silently wrong as a market comparator for a Warwickshire
+    resale — and it now returns None instead, on this reasoning. What remains
+    is a shape difference: region_for reads a subject (borough fields, then an
+    address scan), while this reads a district column straight off a Price Paid
+    row. Both are fail-closed: a slug the HPI endpoint does not recognise
+    fetches nothing and the pair is skipped, so a record never carries the
+    wrong market."""
     if not district:
         return None
     return re.sub(r"[^a-z0-9]+", "-", str(district).strip().lower()).strip("-") or None

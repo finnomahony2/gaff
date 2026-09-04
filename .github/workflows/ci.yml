@@ -23,7 +23,13 @@ jobs:
       # No install step on purpose: the engine is stdlib-only, so the suite
       # running against a bare interpreter is itself the check that it stayed
       # that way. A new third-party import would fail here first.
+      # A cache directory of its own, so the suite never reads whatever
+      # ~/.gaff happens to hold. A fresh runner has none, which made this
+      # isolated by luck rather than by design; a cached artifact or a test
+      # that warms a street would have ended that quietly.
       - name: Engine suite
+        env:
+          GAFF_CACHE_DIR: ${{ runner.temp }}/gaff-cache
         run: |
           failed=0
           for f in tests/test_*.py; do
@@ -32,6 +38,8 @@ jobs:
           exit $failed
 
       - name: Surface suites
+        env:
+          GAFF_CACHE_DIR: ${{ runner.temp }}/gaff-cache
         run: |
           python3 surfaces/mcp_client_test.py
           python3 surfaces/cli_test.py

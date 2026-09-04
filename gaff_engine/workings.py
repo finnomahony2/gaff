@@ -264,12 +264,14 @@ def _taste_section(taste: Any) -> Optional[Dict[str, Any]]:
 
 
 def show_work(listing: Any, verdict: Any = None, comps: Optional[List[Any]] = None,
-              taste: Any = None, flags: Optional[List[Any]] = None) -> Dict[str, Any]:
+              taste: Any = None, flags: Optional[List[Any]] = None,
+              vintage: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
     """Assemble the full work trace for one scored listing, from EXISTING data.
 
     ``verdict`` may be a :class:`ValueVerdict` or the value_check payload dict
     (including its soft-error form); ``taste`` a TasteResult or the taste_score
-    payload; ``comps`` the comp pool the verdict saw. Everything is optional —
+    payload; ``comps`` the comp pool the verdict saw; ``vintage`` the S5 evidence
+    vintage assembled where those comps were loaded. Everything is optional —
     an absent piece is traced as absent, never invented.
     """
     from gaff_engine.serialize import to_jsonable
@@ -277,6 +279,7 @@ def show_work(listing: Any, verdict: Any = None, comps: Optional[List[Any]] = No
         "addressMatch": _address_section(listing, comps, verdict),
         "sqftSource": _sqft_section(listing),
         "comps": _comps_section(comps),
+        "vintage": vintage,
         "value": _value_section(listing, verdict),
         "taste": _taste_section(taste),
         "flags": to_jsonable(list(flags or [])),
@@ -345,6 +348,9 @@ def render_text(work: Dict[str, Any]) -> str:
     if cp.get("unknownCategory"):
         out.append("  %d carry no transaction category (treated as standard — an assumption, "
                    "and it is shown as one)." % cp["unknownCategory"])
+
+    from gaff_engine import vintage as _vintage
+    out.extend(_vintage.render(work.get("vintage")))
 
     val = work.get("value")
     out.append("")

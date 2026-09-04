@@ -1,0 +1,211 @@
+[
+ {
+  "name": "price_check",
+  "description": "Recent Land Registry sales on a UK street, with median price. Town-scoped. Cache-first: answers come from local data only, never a live portal. Call the coverage tool for what is warmed right now; the warm tool adds more.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "street": {
+     "type": "string",
+     "description": "Street name, e.g. 'De Beauvoir Road'"
+    },
+    "town": {
+     "type": "string",
+     "description": "Town, e.g. 'LONDON'. Defaults to LONDON."
+    }
+   },
+   "required": [
+    "street"
+   ]
+  }
+ },
+ {
+  "name": "flip_stats",
+  "description": "Repeat-sales analysis for a town: uplift achieved versus what the market did anyway. Cache-first: answers come from local data only, never a live portal. Call the coverage tool for what is warmed right now; the warm tool adds more.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "town": {
+     "type": "string",
+     "description": "Town name, e.g. 'LEAMINGTON SPA'"
+    }
+   },
+   "required": [
+    "town"
+   ]
+  }
+ },
+ {
+  "name": "read_listing",
+  "description": "Parse one property listing (your structured read, or raw pasted text) into the engine's honest Listing shape, with a completeness map of what was missing. Runs entirely locally; no data leaves the machine.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "fields": {
+     "type": "object",
+     "description": "Your structured read of the listing: address, postcode, beds, baths, sqft or sqm, price or rent_pcm (numbers or display strings), property_type, tenure, lease_years, description, key_features, mode ('buy'/'rent'), epc_sqft (the EPC certificate's floor area in sqft, when you have the certificate — enables the marketing-vs-EPC basis check and the works-vs-EPC agent question). All optional; omit what the listing does not state — absences are recorded honestly, never guessed."
+    },
+    "text": {
+     "type": "string",
+     "description": "The raw pasted listing text; parsed deterministically (regex, no guessing) — prefer 'fields' when you have read the listing yourself."
+    },
+    "mode": {
+     "type": "string",
+     "enum": [
+      "buy",
+      "rent"
+     ],
+     "description": "Force buy/rent when the listing doesn't say."
+    }
+   },
+   "required": []
+  }
+ },
+ {
+  "name": "value_check",
+  "description": "Is the asking price fair? Ingests the listing (fields or text), loads cached comparable sales, and returns the engine's value verdict: steal/fair/over tag, percent delta, fair estimate, confidence and its evidence basis. SALES only: a rental listing gets an honest error (rent verdicts are not served yet). Cache-first: answers come from local data only, never a live portal. Call the coverage tool for what is warmed right now; the warm tool adds more.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "fields": {
+     "type": "object",
+     "description": "Your structured read of the listing: address, postcode, beds, baths, sqft or sqm, price or rent_pcm (numbers or display strings), property_type, tenure, lease_years, description, key_features, mode ('buy'/'rent'), epc_sqft (the EPC certificate's floor area in sqft, when you have the certificate — enables the marketing-vs-EPC basis check and the works-vs-EPC agent question). All optional; omit what the listing does not state — absences are recorded honestly, never guessed."
+    },
+    "text": {
+     "type": "string",
+     "description": "The raw pasted listing text; parsed deterministically (regex, no guessing) — prefer 'fields' when you have read the listing yourself."
+    }
+   },
+   "required": []
+  }
+ },
+ {
+  "name": "taste_score",
+  "description": "Score a listing against a taste profile. YOU (the host model) are the taste model: read the listing evidence and score each of the eight axes 0-10 — light_and_volume, outdoor_space, character_bones, width_proportion_flow, street_scene, raw_size_threshold, design_finish, station_proximity — each with an honest one-line contribution grounded in what the listing actually shows (never the asking price). Optionally report namedLoveHits (loves you saw) and antiSignalHits ([signal, penalty, fatal] triples). The engine then runs its deterministic weighting and adjustment pipeline over your read. Weights default to the shipped demo profile.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "fields": {
+     "type": "object",
+     "description": "Your structured read of the listing: address, postcode, beds, baths, sqft or sqm, price or rent_pcm (numbers or display strings), property_type, tenure, lease_years, description, key_features, mode ('buy'/'rent'), epc_sqft (the EPC certificate's floor area in sqft, when you have the certificate — enables the marketing-vs-EPC basis check and the works-vs-EPC agent question). All optional; omit what the listing does not state — absences are recorded honestly, never guessed."
+    },
+    "text": {
+     "type": "string",
+     "description": "The raw pasted listing text; parsed deterministically (regex, no guessing) — prefer 'fields' when you have read the listing yourself."
+    },
+    "reads": {
+     "type": "object",
+     "description": "{axes: {<axis>: {score: 0-10, contribution: str}} for all eight axes, namedLoveHits?: [str], antiSignalHits?: [[signal, penalty, fatal]]}"
+    },
+    "weights": {
+     "type": "object",
+     "description": "The eight axis weights; omitted -> the shipped demo profile's weights."
+    }
+   },
+   "required": [
+    "reads"
+   ]
+  }
+ },
+ {
+  "name": "score_listing",
+  "description": "The one-call verdict. Paste a listing (or an alert email's listing, as text= or your structured fields= read): get a clear explanation of fit, evidence-based price context, and the viewing questions that matter — call it once per listing to rank a shortlist. Composes ingest, the value verdict (band + steal/fair/over conditional on the evidence, NEEDS_DATA when the evidence isn't there), taste scoring when you supply axis reads (same contract as taste_score — you are the taste model), agent questions generated from the engine's own uncertainty, the full show-your-working trace, and a short plain narrative templated from the numbers (no LLM call). Cache-first: answers come from local data only, never a live portal. Call the coverage tool for what is warmed right now; the warm tool adds more.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "fields": {
+     "type": "object",
+     "description": "Your structured read of the listing: address, postcode, beds, baths, sqft or sqm, price or rent_pcm (numbers or display strings), property_type, tenure, lease_years, description, key_features, mode ('buy'/'rent'), epc_sqft (the EPC certificate's floor area in sqft, when you have the certificate — enables the marketing-vs-EPC basis check and the works-vs-EPC agent question). All optional; omit what the listing does not state — absences are recorded honestly, never guessed."
+    },
+    "text": {
+     "type": "string",
+     "description": "The raw pasted listing text; parsed deterministically (regex, no guessing) — prefer 'fields' when you have read the listing yourself."
+    },
+    "reads": {
+     "type": "object",
+     "description": "Optional taste reads, taste_score's exact contract: {axes: {<axis>: {score: 0-10, contribution: str}} for all eight axes, namedLoveHits?, antiSignalHits?}. Omit to skip taste and get value + questions only."
+    },
+    "weights": {
+     "type": "object",
+     "description": "The eight axis weights; omitted -> the shipped demo profile's weights."
+    }
+   },
+   "required": []
+  }
+ },
+ {
+  "name": "show_work",
+  "description": "Every number traceable on demand: the full working trace for one listing — address-match level (street vs area vs unverified pool; the engine never claims the exact building), where the subject's floor area came from (stated / derived / missing, plus any marketing-vs-EPC basis conflict), comp counts by trust tier with non-standard-sale exclusions shown, the value-band arithmetic written out, taste axis rows with the recompute sum, and flags — as structured data plus a narrated plain-text 'rendered' field. Presentation only: nothing new is computed. Cache-first: answers come from local data only, never a live portal. Call the coverage tool for what is warmed right now; the warm tool adds more.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "fields": {
+     "type": "object",
+     "description": "Your structured read of the listing: address, postcode, beds, baths, sqft or sqm, price or rent_pcm (numbers or display strings), property_type, tenure, lease_years, description, key_features, mode ('buy'/'rent'), epc_sqft (the EPC certificate's floor area in sqft, when you have the certificate — enables the marketing-vs-EPC basis check and the works-vs-EPC agent question). All optional; omit what the listing does not state — absences are recorded honestly, never guessed."
+    },
+    "text": {
+     "type": "string",
+     "description": "The raw pasted listing text; parsed deterministically (regex, no guessing) — prefer 'fields' when you have read the listing yourself."
+    },
+    "reads": {
+     "type": "object",
+     "description": "Optional taste reads (taste_score's contract) to include the taste arithmetic in the trace."
+    },
+    "weights": {
+     "type": "object",
+     "description": "The eight axis weights; omitted -> the shipped demo profile's weights."
+    }
+   },
+   "required": []
+  }
+ },
+ {
+  "name": "rent_check",
+  "description": "Is the asking rent fair? Judges a rental listing's £pcm against comparable local lets (same outcode + bed count) from a LOCAL rental pool file — honestly lower confidence than a sales verdict (asking rents, not agreed lets, and the payload says so). The package ships no pool (rental comparison data is scraped portal content, not redistributable): without a user-supplied rental_candidates.json in the user cache this returns the honest error naming exactly that.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "fields": {
+     "type": "object",
+     "description": "Your structured read of the listing: address, postcode, beds, baths, sqft or sqm, price or rent_pcm (numbers or display strings), property_type, tenure, lease_years, description, key_features, mode ('buy'/'rent'), epc_sqft (the EPC certificate's floor area in sqft, when you have the certificate — enables the marketing-vs-EPC basis check and the works-vs-EPC agent question). All optional; omit what the listing does not state — absences are recorded honestly, never guessed."
+    },
+    "text": {
+     "type": "string",
+     "description": "The raw pasted listing text; parsed deterministically (regex, no guessing) — prefer 'fields' when you have read the listing yourself."
+    }
+   },
+   "required": []
+  }
+ },
+ {
+  "name": "coverage",
+  "description": "What the local caches can answer right now: warmed comps towns with street counts, flips towns with record counts, data vintages, and which loose datasets are present. Call this to scope a question before asking it. Cache-first: answers come from local data only, never a live portal. Call the coverage tool for what is warmed right now; the warm tool adds more.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {},
+   "required": []
+  }
+ },
+ {
+  "name": "warm",
+  "description": "Fetch and cache open Land Registry data so cold questions become answerable: street= (+town=) caches one street's sales (one live call); flips_town= builds a town's repeat-sales dataset (a paced whole-town pull, minutes; very large towns are refused by a record cap). The only tool that touches the network.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "street": {
+     "type": "string",
+     "description": "Street to cache sales for"
+    },
+    "town": {
+     "type": "string",
+     "description": "Town for street=. Defaults to LONDON."
+    },
+    "flips_town": {
+     "type": "string",
+     "description": "Town to build repeat-sales data for"
+    }
+   },
+   "required": []
+  }
+ }
+]

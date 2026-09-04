@@ -18,7 +18,10 @@ all-types, then to no adjustment.
 
 **Honest by construction.** When the borough+month isn't available (thin data, a
 future-dated comp, an unmapped region) the factor is ``1.0`` — no adjustment, never a
-guess. The factor is clamped to a sane band so a data glitch can't wildly move a price.
+guess. That applies to the REGION as much as the month: :func:`region_for` returns
+``None`` for a subject it cannot place, rather than a default series, because an
+adjustment made in the wrong market is a confident error, not a small one. The factor
+is clamped to a sane band so a data glitch can't wildly move a price.
 
 Offline-friendly like ``landreg``/``epc``: months are cached under ``data/hpi/``. A
 cached month is read without network; an uncached month is fetched once (unless
@@ -39,8 +42,6 @@ from typing import Any, Dict, Optional
 from gaff_engine import paths
 
 # Writable per-user cache for writes; shipped warm cache for reads that miss it.
-CACHE_DIR = paths.cache_dir("hpi")
-SHIPPED_CACHE_DIR = paths.shipped_dir("hpi")
 BASE = "http://landregistry.data.gov.uk/data/ukhpi/region"
 # Overridable so anyone running the package identifies themselves upstream.
 # PLACEHOLDER: the gaff-engine GitHub org is not registered, so the default
@@ -74,7 +75,8 @@ _TYPE_FIELD = {
 _FACTOR_CLAMP = (0.5, 2.0)
 
 # Minimal outcode/area -> borough-slug map for the boroughs Gaff's data covers.
-# Deliberately small + explicit; unmapped areas fall back to a London-wide series.
+# Deliberately small + explicit. An area that is not in here is not silently
+# mapped to anything: see region_for, which abstains rather than defaulting.
 _AREA_SLUG = {
     "hackney": "hackney", "de beauvoir": "hackney", "dalston": "hackney",
     "london fields": "hackney", "clapton": "hackney", "de beauvoir town": "hackney",
@@ -88,7 +90,8 @@ _AREA_SLUG = {
     # series is warmed alongside the comps.
     "leamington spa": "warwick", "leamington": "warwick", "warwick": "warwick",
 }
-_DEFAULT_REGION = "london"
+# There is deliberately no _DEFAULT_REGION. A subject this map cannot place has
+# no region, and "no region" means no adjustment (region_for -> None).
 
 
 # ---------------------------------------------------------------------------
@@ -115,7 +118,7 @@ def _cache_name(region: str, month: str) -> str:
 
 def _cache_path(region: str, month: str) -> str:
     """Where a fetched record is written: always the user cache."""
-    return os.path.join(CACHE_DIR, _cache_name(region, month))
+    return os.path.join(_root("CACHE_DIR"), _cache_name(region, month))
 
 
 def _read_cache_json(region: str, month: str) -> Optional[Dict[str, Any]]:
@@ -125,7 +128,7 @@ def _read_cache_json(region: str, month: str) -> Optional[Dict[str, Any]]:
     corrupt or stale-shaped user-tier file cannot mask a valid shipped one.
     """
     name = _cache_name(region, month)
-    for root in (CACHE_DIR, SHIPPED_CACHE_DIR):
+    for root in (_root("CACHE_DIR"), _root("SHIPPED_CACHE_DIR")):
         candidate = os.path.join(root, name)
         if not os.path.exists(candidate):
             continue
@@ -144,16 +147,40 @@ def normalise_type(property_type: Optional[str]) -> str:
     return _TYPE_FIELD.get(str(property_type or "").strip().lower(), "averagePriceFlatMaisonette")
 
 
-def region_for(subject: Any) -> str:
-    """Best-effort borough slug for a subject. Prefers an explicit borough/localAuthority
-    field, then an address/area string match, else the London-wide series."""
+def region_for(subject: Any) -> Optional[str]:
+    """The UK HPI region slug for a subject, or ``None`` when it cannot be placed.
+
+    Three outcomes, and the third is the whole point:
+
+    1. an explicit ``borough``/``localAuthority``/``laName``/``district`` field —
+       the subject's OWN region. Mapped through :data:`_AREA_SLUG` when it names a
+       known area, otherwise slugified as given ("Stratford-on-Avon" ->
+       ``stratford-on-avon``), which is how UK HPI names districts anyway. A slug
+       the endpoint does not recognise still fails closed: ``fetch_month`` finds
+       nothing and the factor stays 1.0.
+    2. a known area name found in the address string -> its borough slug.
+    3. nothing recognised -> ``None``. Not ``"london"``.
+
+    Outcome 3 used to be the London-wide series, and that was a real adjustment
+    made in the wrong market: a Leeds flat lifted by London's 2021-to-2025 curve
+    is not a smaller error than no adjustment, it is a confident one. The fallback
+    was invisible until S5 started printing the region on every verdict, where it
+    would have read "(london)" under a Yorkshire address.
+
+    Abstaining costs no verdict — :func:`hpi_factor` returns 1.0 for a falsy
+    region, so the comps simply stand in the money of their own sale dates, and
+    the tag, band and confidence are all still produced. It is also what this
+    module promises everywhere else: a missing month is never guessed either.
+    ``flips._hpi_region`` reached the same conclusion first and named this
+    fallback as the reason it would not reuse this function.
+    """
     for k in ("borough", "localAuthority", "laName", "district"):
         v = _g(subject, k)
         if v:
             slug = _AREA_SLUG.get(str(v).strip().lower())
             if slug:
                 return slug
-            return re.sub(r"[^a-z0-9]+", "-", str(v).strip().lower()).strip("-") or _DEFAULT_REGION
+            return re.sub(r"[^a-z0-9]+", "-", str(v).strip().lower()).strip("-") or None
     # Fall back to scanning an address / display string for a known area.
     addr = ""
     for k in ("address", "displayAddress", "area", "street"):
@@ -165,16 +192,19 @@ def region_for(subject: Any) -> str:
     for name, slug in _AREA_SLUG.items():
         if name in addr:
             return slug
-    return _DEFAULT_REGION
+    return None
 
 
 # ---------------------------------------------------------------------------
 # Fetch (cache-first) + the factor.
 # ---------------------------------------------------------------------------
 
-def fetch_month(region: str, month: str, *, offline: bool = False) -> Optional[Dict[str, Any]]:
+def fetch_month(region: Optional[str], month: Optional[str], *,
+                offline: bool = False) -> Optional[Dict[str, Any]]:
     """The UK HPI record (``primaryTopic``) for a borough+month. Cache-first; fetches
-    once on a miss unless ``offline``. Returns ``None`` when unavailable."""
+    once on a miss unless ``offline``. Returns ``None`` when unavailable — which
+    includes a ``None`` region, the honest answer :func:`region_for` gives for a
+    subject it cannot place."""
     if not region or not month:
         return None
     path = _cache_path(region, month)
@@ -195,13 +225,14 @@ def fetch_month(region: str, month: str, *, offline: bool = False) -> Optional[D
     if not isinstance(topic, dict):
         return None
     topic["cacheSchema"] = CACHE_SCHEMA
-    os.makedirs(CACHE_DIR, exist_ok=True)
+    os.makedirs(_root("CACHE_DIR"), exist_ok=True)
     with open(path, "w") as f:
         json.dump(topic, f)
     return topic
 
 
-def avg_price(region: str, property_type: str, month: str, *, offline: bool = False) -> Optional[float]:
+def avg_price(region: Optional[str], property_type: Optional[str], month: Optional[str], *,
+              offline: bool = False) -> Optional[float]:
     """Per-type average price for a borough+month (falls back to the all-types average)."""
     topic = fetch_month(region, month, offline=offline)
     if not topic:
@@ -216,11 +247,12 @@ def avg_price(region: str, property_type: str, month: str, *, offline: bool = Fa
         return None
 
 
-def hpi_factor(region: str, property_type: str, from_date: Optional[str],
+def hpi_factor(region: Optional[str], property_type: Optional[str], from_date: Optional[str],
                to_date: Optional[str] = None, *, offline: bool = False) -> float:
     """``price(as_of) / price(sale_month)`` for this borough + property type, clamped to a
-    sane band. Returns ``1.0`` (no adjustment, never a guess) when either month is
-    unavailable — so a future-dated or unmapped comp simply isn't adjusted."""
+    sane band. Returns ``1.0`` (no adjustment, never a guess) when the region or either
+    month is unavailable — so a future-dated comp, an uncached month, or a subject
+    :func:`region_for` could not place simply isn't adjusted."""
     from_m = month_of(from_date)
     to_m = month_of(to_date) or AS_OF_MONTH
     if not from_m or from_m >= to_m:
@@ -238,3 +270,36 @@ __all__ = [
     "AS_OF_MONTH", "CACHE_DIR", "SHIPPED_CACHE_DIR", "month_of", "normalise_type", "region_for",
     "fetch_month", "avg_price", "hpi_factor",
 ]
+
+
+_LAZY_DIRS = {"CACHE_DIR": lambda: paths.cache_dir("hpi"),
+              "SHIPPED_CACHE_DIR": lambda: paths.shipped_dir("hpi")}
+
+
+# ---------------------------------------------------------------------------
+# Cache locations: resolved ON USE, and overridable by assignment.
+#
+# These were module-level constants (``CACHE_DIR = paths.cache_dir(...)``),
+# which snapshotted $GAFF_CACHE_DIR at IMPORT time. Anything that set the
+# variable afterwards — a test isolating itself, an embedding pointing Gaff at
+# its own cache — moved ``paths.*`` but not these, and got silent PARTIAL
+# isolation: reads through ``paths.read_candidates`` followed the new root while
+# this module kept using the old one.
+#
+# So the names are no longer bound at import. ``_root()`` resolves them fresh on
+# every use, and the public names are served lazily by :pep:`562`. Assignment
+# still wins, because tests/test_epc.py isolates itself precisely that way
+# ("monkeypatched globals are read at call time") and that contract is kept: an
+# assignment lands in the module globals, which ``_root`` checks first.
+# ---------------------------------------------------------------------------
+
+def _root(name):
+    """The directory for ``name``, honouring an assignment, else resolved now."""
+    override = globals().get(name)
+    return override if override is not None else _LAZY_DIRS[name]()
+
+
+def __getattr__(name):
+    if name in _LAZY_DIRS:
+        return _LAZY_DIRS[name]()
+    raise AttributeError("module %r has no attribute %r" % (__name__, name))

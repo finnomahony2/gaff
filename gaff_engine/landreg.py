@@ -99,8 +99,6 @@ REQUEST_TIMEOUT_SECONDS = 30
 # Cache locations come from gaff_engine.paths: CACHE_DIR is the writable
 # per-user cache every write lands in, SHIPPED_CACHE_DIR is the read-only warm
 # cache that travels with the package. Reads try the user cache, then shipped.
-CACHE_DIR = paths.cache_dir("comps")
-SHIPPED_CACHE_DIR = paths.shipped_dir("comps")
 
 # The De Beauvoir (N1) nearby-street set U9 pulls for coverage around the golden
 # Northchurch Road maisonette (task-specified).
@@ -232,7 +230,7 @@ def _legacy_rel(street: str) -> str:
 
 def _cache_path(street: str, town: str = "LONDON") -> str:
     """Where a fetch for ``street`` is written: always the user cache."""
-    return os.path.join(CACHE_DIR, _rel(street, town))
+    return os.path.join(_root("CACHE_DIR"), _rel(street, town))
 
 
 def _read_cache_paths(street: str, town: str = "LONDON") -> List[str]:
@@ -243,10 +241,10 @@ def _read_cache_paths(street: str, town: str = "LONDON") -> List[str]:
     layout is still found rather than silently re-fetched.
     """
     rel, legacy = _rel(street, town), _legacy_rel(street)
-    return [os.path.join(CACHE_DIR, rel),
-            os.path.join(SHIPPED_CACHE_DIR, rel),
-            os.path.join(CACHE_DIR, legacy),
-            os.path.join(SHIPPED_CACHE_DIR, legacy)]
+    return [os.path.join(_root("CACHE_DIR"), rel),
+            os.path.join(_root("SHIPPED_CACHE_DIR"), rel),
+            os.path.join(_root("CACHE_DIR"), legacy),
+            os.path.join(_root("SHIPPED_CACHE_DIR"), legacy)]
 
 
 def fetch_street(
@@ -565,3 +563,36 @@ __all__ = [
     "fetch_street", "parse_comp", "get_comps", "comps_for_listing",
     "select_like_for_like", "hpi_factor",
 ]
+
+
+_LAZY_DIRS = {"CACHE_DIR": lambda: paths.cache_dir("comps"),
+              "SHIPPED_CACHE_DIR": lambda: paths.shipped_dir("comps")}
+
+
+# ---------------------------------------------------------------------------
+# Cache locations: resolved ON USE, and overridable by assignment.
+#
+# These were module-level constants (``CACHE_DIR = paths.cache_dir(...)``),
+# which snapshotted $GAFF_CACHE_DIR at IMPORT time. Anything that set the
+# variable afterwards — a test isolating itself, an embedding pointing Gaff at
+# its own cache — moved ``paths.*`` but not these, and got silent PARTIAL
+# isolation: reads through ``paths.read_candidates`` followed the new root while
+# this module kept using the old one.
+#
+# So the names are no longer bound at import. ``_root()`` resolves them fresh on
+# every use, and the public names are served lazily by :pep:`562`. Assignment
+# still wins, because tests/test_epc.py isolates itself precisely that way
+# ("monkeypatched globals are read at call time") and that contract is kept: an
+# assignment lands in the module globals, which ``_root`` checks first.
+# ---------------------------------------------------------------------------
+
+def _root(name):
+    """The directory for ``name``, honouring an assignment, else resolved now."""
+    override = globals().get(name)
+    return override if override is not None else _LAZY_DIRS[name]()
+
+
+def __getattr__(name):
+    if name in _LAZY_DIRS:
+        return _LAZY_DIRS[name]()
+    raise AttributeError("module %r has no attribute %r" % (__name__, name))

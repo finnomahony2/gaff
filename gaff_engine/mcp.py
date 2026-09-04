@@ -26,6 +26,7 @@ import sys
 _FRAMES = sys.stdout
 sys.stdout = sys.stderr
 
+from gaff_engine import __version__                       # noqa: E402
 from gaff_engine.tools import TOOLS, DISPATCH, safe_call  # noqa: E402
 
 PROTOCOL = "2025-06-18"
@@ -54,7 +55,7 @@ def handle(req):
     method, rid = req.get("method"), req.get("id")
     if method == "initialize":
         _result(rid, {"protocolVersion": PROTOCOL, "capabilities": {"tools": {}},
-                      "serverInfo": {"name": "gaff", "version": "0.1.0"}})
+                      "serverInfo": {"name": "gaff", "version": __version__}})
     elif method == "notifications/initialized":
         pass
     elif method == "tools/list":

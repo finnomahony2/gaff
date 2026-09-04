@@ -30,13 +30,62 @@ def test_type_normalisation_defaults_to_flats():
     assert normalise_type("anything else") == "averagePriceFlatMaisonette"
 
 
-def test_region_for_maps_area_then_defaults():
+def test_region_for_maps_a_known_area():
+    """A mapped London area, and the second warm-cache city, each resolve to
+    their OWN district — a Leamington verdict must never say "(UK HPI, london)"."""
     assert region_for({"address": "12 De Beauvoir Road, London N1"}) == "hackney"
     assert region_for({"borough": "Islington"}) == "islington"
-    assert region_for({"address": "a place with no known area"}) == "london"
-    # The second warm-cache city adjusts in its own district's money (L2C):
-    # a Leamington verdict must never say "(UK HPI, london)".
     assert region_for({"address": "Sample Road, Leamington Spa CV31"}) == "warwick"
+
+
+def test_region_for_abstains_when_it_cannot_place_the_subject():
+    """The unmapped town returns None, not "london".
+
+    This is the whole point of the change. The old fallback made every
+    unrecognised address adjust in the London series, which is a real
+    adjustment in the wrong market: off the committed cache, a Feb 2021 flat
+    moves +2.4% and a Jun 2022 one -3.6%, so an unplaceable subject's comps
+    were being pushed either way by London's curve. It stayed invisible until
+    S5 began printing the region on every verdict, where it would have read
+    "(london)" under a Yorkshire address.
+    """
+    for subject in ({"address": "42 Kirkstall Road, Leeds LS3"},
+                    {"address": "1 Deansgate, Manchester M3"},
+                    {"address": "a place with no known area"},
+                    {"address": ""},
+                    {}):
+        assert region_for(subject) is None, subject
+
+
+def test_an_explicit_district_is_the_subjects_own_region():
+    """A borough/district field is used even when the area map has never heard
+    of it: it is the subject's OWN district, slugified the way UK HPI names
+    districts. This is the path tools._routed_comps puts a newly warmed town
+    on (it attaches listing.district), which is why abstaining above costs a
+    warmed town nothing.
+
+    It is fail-closed regardless: an unrecognised slug fetches nothing, so the
+    factor stays 1.0 rather than becoming somewhere else's number."""
+    assert region_for({"district": "Leeds"}) == "leeds"
+    assert region_for({"district": "Stratford-on-Avon"}) == "stratford-on-avon"
+    assert region_for({"district": "!!!"}) is None       # slugifies to nothing
+    assert hpi_factor(region_for({"district": "Leeds"}), "flat",
+                      "2021-01-01", offline=True) == 1.0
+
+
+def test_abstaining_costs_no_adjustment_rather_than_a_wrong_one():
+    """None flows through hpi_factor as 1.0 — comps stand in the money of their
+    own sale dates. Contrast the old behaviour, still reachable by naming the
+    region explicitly, which moved a subject's comps in London's series."""
+    assert hpi_factor(None, "flat", "2021-02-01", offline=True) == 1.0
+    assert hpi_factor(region_for({"address": "Leeds LS3"}), "flat",
+                      "2021-02-01", offline=True) == 1.0
+    # The adjustment the fallback used to apply to any unplaced subject, read
+    # from the committed cache (2021-02 is present for both regions; 2021-01 is
+    # NOT committed for london, so asserting on it would silently read whatever
+    # the developer has in ~/.gaff).
+    assert hpi_factor("london", "flat", "2021-02-01", offline=True) > 1.02
+    assert hpi_factor("hackney", "flat", "2021-02-01", offline=True) != 1.0
 
 
 def test_factor_reads_the_committed_cache_offline():

@@ -773,20 +773,32 @@ def _adjust_comp(comp: Any, factor: float) -> Any:
     return adjusted
 
 
-def _time_adjust_anchor(anchor: List[Any], subject: Any) -> Tuple[List[Any], bool]:
+def _time_adjust_anchor(anchor: List[Any],
+                        subject: Any) -> Tuple[List[Any], bool, Optional[str]]:
     """Nudge each anchor comp's £/sqft from its sale month to today's money via the UK
     HPI for the subject's borough + the comp's property type (B2) — so an old comp is no
     longer quoted in old money, the bias that made a fair listing read 'over'. Comps with
-    no HPI data (future-dated / unmapped borough) keep factor 1.0. Returns the adjusted
-    comps and whether any were actually moved."""
+    no HPI data (future-dated month, or a subject ``hpi.region_for`` cannot place) keep
+    factor 1.0.
+
+    Returns the adjusted comps, whether any were actually moved, and the region
+    they were moved in. The region is returned rather than re-derived by the
+    caller so the basis string can only ever name the series that was actually
+    used — it is ``None`` when the subject could not be placed, and then nothing
+    moved and no basis bit is written."""
     region = hpi.region_for(subject)
     out, moved = [], False
     for c in anchor:
-        f = hpi.hpi_factor(region, _g(c, "propertyType"), _g(c, "date"))
+        # offline=True is the OFFLINE PROMISE, not a performance choice (S4):
+        # a comp whose month the HPI cache lacks must fall back to factor 1.0,
+        # never open a socket. Only warm fetches. gaff_engine/netgate.py holds
+        # the declared list and the test that measures it.
+        f = hpi.hpi_factor(region, _g(c, "propertyType"), _g(c, "date"),
+                           offline=True)
         if f != 1.0:
             moved = True
         out.append(_adjust_comp(c, f))
-    return out, moved
+    return out, moved, region
 
 
 def _category_provenance_bits(pool: List[Any], anchor: List[Any]) -> List[str]:
@@ -813,6 +825,29 @@ def _category_provenance_bits(pool: List[Any], anchor: List[Any]) -> List[str]:
     return bits
 
 
+def _stamp_hpi(verdict: ValueVerdict, region: Optional[str],
+               moved: bool) -> ValueVerdict:
+    """Record what the HPI time adjustment ACTUALLY did to this verdict.
+
+    Attached, not schema'd (the epcSqft idiom): ``ValueVerdict`` is the
+    published ``score.result`` sub-object and gains no field, but S5's vintage
+    line has to report the OUTCOME rather than the intent. Deriving it from the
+    region alone let the two surfaces of one verdict contradict each other — the
+    basis correctly omitting "time-adjusted" while the vintage line read
+    "Prices adjusted to Jun 2025 money (hackney)" because a region had resolved
+    and nothing else was checked. That is the same overclaim S5 exists to
+    remove, so the fact travels with the verdict that knows it.
+
+    ``hpiRegion`` is the region considered (``None`` when the subject could not
+    be placed); ``hpiAdjusted`` is whether any comp actually moved. They differ
+    whenever the region is known but its months are not cached and cannot be
+    fetched.
+    """
+    verdict.hpiRegion = region
+    verdict.hpiAdjusted = bool(moved)
+    return verdict
+
+
 def _needs_data_verdict(reason: str) -> ValueVerdict:
     """A soft, schema-valid "can't price this yet" verdict — the honest empty-state
     (P1) returned instead of raising when the subject has no floor area, no asking
@@ -824,6 +859,7 @@ def _needs_data_verdict(reason: str) -> ValueVerdict:
         fairEstimate=None, band=None, position=None, streetMedianPerSqft=None,
         basis=reason, evidence=[], confidence=0.0)
     v.reasons = [reason]
+    _stamp_hpi(v, None, False)
     return v
 
 
@@ -928,7 +964,12 @@ def _llf_verdict(subject: Any, comps: List[Any], ask: int,
     prices: List[float] = []
     hpi_moved = False
     for c in anchor:
-        f = hpi.hpi_factor(region, _g(c, "propertyType"), _g(c, "date"))
+        # offline=True is the OFFLINE PROMISE, not a performance choice (S4):
+        # a comp whose month the HPI cache lacks must fall back to factor 1.0,
+        # never open a socket. Only warm fetches. gaff_engine/netgate.py holds
+        # the declared list and the test that measures it.
+        f = hpi.hpi_factor(region, _g(c, "propertyType"), _g(c, "date"),
+                           offline=True)
         if f != 1.0:
             hpi_moved = True
         prices.append(_comp_price(c) * f)
@@ -1039,7 +1080,7 @@ def _llf_verdict(subject: Any, comps: List[Any], ask: int,
     ]
     if hpi_moved:
         basis_bits.append("prices time-adjusted to %s money (UK HPI, %s)"
-                          % (hpi.AS_OF_MONTH, hpi.region_for(subject)))
+                          % (hpi.AS_OF_MONTH, region))
     if adjs:
         basis_bits.append("lease-adjusted")
     if capped:
@@ -1092,6 +1133,7 @@ def _llf_verdict(subject: Any, comps: List[Any], ask: int,
                  "correct for size — %s)."
                  % (_confidence_band(verdict_conf).capitalize(), unlock))
     verdict.reasons = lines[:3]
+    _stamp_hpi(verdict, region, hpi_moved)
     return verdict
 
 
@@ -1136,7 +1178,7 @@ def value_verdict(subject: Any, comps: List[Any]) -> ValueVerdict:
     # B2: nudge each comp's £/sqft to today's money (UK HPI, per borough + property type)
     # so an old comp isn't quoted in old money. Downstream estimate/spread/evidence all
     # use the adjusted anchor.
-    anchor, hpi_moved = _time_adjust_anchor(anchor, subject)
+    anchor, hpi_moved, hpi_region = _time_adjust_anchor(anchor, subject)
     fe = fair_estimate(anchor, sqft)
     estimate, raw_band = fe["estimate"], fe["band"]
     ppsf_median, n = fe["ppsfMedian"], fe["n"]
@@ -1209,7 +1251,7 @@ def value_verdict(subject: Any, comps: List[Any]) -> ValueVerdict:
     ]
     if hpi_moved:
         basis_bits.append("£/sqft time-adjusted to %s money (UK HPI, %s)"
-                          % (hpi.AS_OF_MONTH, hpi.region_for(subject)))
+                          % (hpi.AS_OF_MONTH, hpi_region))
     if adjs:
         basis_bits.append("lease-adjusted")
     if capped:
@@ -1242,6 +1284,7 @@ def value_verdict(subject: Any, comps: List[Any]) -> ValueVerdict:
 
     verdict.reasons = _reason_lines(subject, anchor, anchor_label, verdict, conf,
                                     adjs, capped, listing_ppsf, ppsf_median)
+    _stamp_hpi(verdict, hpi_region, hpi_moved)
     return verdict
 
 

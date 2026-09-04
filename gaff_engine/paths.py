@@ -95,6 +95,31 @@ def cache_dir(kind: str) -> str:
     return os.path.join(user_cache_dir(), kind)
 
 
+def state_dir() -> str:
+    """The writable directory for session state: ``<user cache>/state``.
+
+    One tier, not two. Every other resolver here falls back to the shipped
+    cache when the user has nothing of their own, and for data that is the
+    right behaviour — a seeded street is a real answer. For *state* it is not:
+    a shipped search, shortlist or second profile standing in for the user's
+    own is a silent wrong answer about what the user asked for, not a stale
+    one about the world. ``profile.json`` is the deliberate exception and it
+    keeps its own path (:func:`data_file`), where the demo default is the
+    point.
+    """
+    return os.path.join(user_cache_dir(), "state")
+
+
+def state_path(*parts: str) -> str:
+    """Path to one state file under :func:`state_dir`. Pure: creates nothing.
+
+    Unlike :func:`write_path` this does NOT make parent directories, because
+    it serves reads as well as writes and a read must never leave a directory
+    behind. The writer creates them (``session._write_json``).
+    """
+    return os.path.join(state_dir(), *parts)
+
+
 # ---------------------------------------------------------------------------
 # Reading and writing.
 # ---------------------------------------------------------------------------
@@ -238,5 +263,6 @@ def epc_token() -> str:
 __all__ = [
     "KINDS", "ENV_CACHE_DIR", "ENV_DATA_DIR", "ENV_EPC_TOKEN", "KEYCHAIN_SERVICE",
     "shipped_data_dir", "user_cache_dir", "shipped_dir", "cache_dir",
+    "state_dir", "state_path",
     "read_candidates", "read_path", "write_path", "data_candidates", "data_file", "epc_token", "epc_token_sources",
 ]

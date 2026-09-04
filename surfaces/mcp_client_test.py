@@ -108,9 +108,9 @@ class Server:
         self.p.wait(timeout=5)
 
 
-ALL_TOOLS = {"price_check", "flip_stats", "read_listing", "value_check",
-             "taste_score", "score_listing", "show_work", "rent_check",
-             "coverage", "warm"}
+ALL_TOOLS = {"situate", "price_check", "flip_stats", "read_listing",
+             "value_check", "taste_score", "score_listing", "show_work",
+             "rent_check", "coverage", "warm"}
 
 FULL_READS = {"axes": {
     k: {"score": 7, "contribution": "flat test read"}
@@ -122,6 +122,21 @@ FULL_WEIGHTS = {
     "light_and_volume": 10, "outdoor_space": 9, "character_bones": 8.5,
     "width_proportion_flow": 8, "street_scene": 8, "raw_size_threshold": 6,
     "design_finish": 4, "station_proximity": 0.5}
+
+
+
+def _refused_not_priced(value):
+    """Either honest refusal for a subject nothing places, never a verdict.
+
+    F-02: with no saved search the listing places nowhere and is refused for
+    that; with one, the session's town opens a pool the subject cannot reach
+    and the reach guard refuses instead. Both are correct and a user's real
+    cache decides which — so this pins the invariant (no tag, a named reason)
+    rather than one of the two sentences.
+    """
+    error = value.get("error") or ""
+    return (value.get("tag") is None
+            and ("warmed town" in error or "verifiably reach" in error))
 
 
 def main():
@@ -332,7 +347,7 @@ def main():
         "price": 300000, "mode": "buy"}})
     check("an out-of-area subject gets a routed refusal, not a London-pool verdict",
           is_err is False and payload["addressMatch"]["matchLevel"] == "none"
-          and "warmed town" in (payload.get("value") or {}).get("error", "")
+          and _refused_not_priced((payload.get("value") or {}))
           and "nearby streets" not in payload.get("rendered", ""),
           payload.get("value") or payload.get("addressMatch"))
 

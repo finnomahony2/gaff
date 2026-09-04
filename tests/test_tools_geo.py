@@ -101,12 +101,24 @@ def test_bare_cached_street_resolves_by_uniqueness():
 # ---------------------------------------------------------------------------
 
 def test_unplaceable_subject_is_refused_not_tagged():
+    """Either refusal is correct here; a tag never is.
+
+    F-02 gave this two truthful endings rather than one. With no saved search
+    the listing places nowhere and is refused for that. With one, the session's
+    town opens a pool the subject cannot reach, and the reach guard refuses
+    THAT — naming the saved search as where the pool came from, because a user
+    told "warm your street" when the real mismatch is the city would go and
+    warm the wrong street. What may not vary is the verdict: there isn't one.
+    """
     payload = _value({"fields": {
         "address": "Nowhere Lane, ATLANTIS", "beds": 2, "sqft": 800,
         "price": 300000, "mode": "buy"}})
-    assert "warmed town" in payload["error"]
     assert "tag" not in payload
     assert "hint" in payload                     # names the next step
+    assert ("warmed town" in payload["error"]
+            or "verifiably reach" in payload["error"]), payload["error"]
+    if payload.get("pool_town_from") == "session":
+        assert "saved search" in payload["hint"], payload["hint"]
 
 
 def test_pool_that_cannot_reach_the_subject_is_refused():

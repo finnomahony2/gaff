@@ -33,14 +33,52 @@ the skill runs, point the shebang at that venv's python instead.
 
 Run these with Bash from this skill's directory.
 
+**Start here: what can this actually do for THIS user?**
+
+```bash
+./gaff situate nation=england town="LEEDS" budget_max=320k mode=buy
+./gaff situate nation=scotland town="EDINBURGH"     # says plainly what does not exist
+./gaff situate                                       # asks, rather than refusing
+```
+
+Four answers at most — mode; nation plus town or outcode; budget; the constraint
+that kills — and back comes a yes/no/unknown line per evidence type (sold comps,
+repeat sales, £/sqft, HPI, EPC, rents), what is warmed, the warms that would help
+with what each one sends, and whose taste profile is loaded. Read the three
+`summary` lines to the user before promising anything.
+
+**Ask the nation. Never infer it from the town name** — Newport, Perth and
+Hamilton each exist in more than one UK nation, and getting it wrong tells a
+Scottish user that Land Registry Price Paid covers them when no open sold-price
+data for Scotland exists at all. `situate` will not guess it for you.
+
+`situate` never returns a usage error. Anything the user has not said comes back
+as `unknown` rows plus `still_needed`; anything unreadable comes back in
+`not_understood` with the vocabulary that would have worked. Call it with what
+you have, then ask for the rest. It saves the search, so later calls inherit the
+mode, town and budget without asking again.
+
+Every "no" carries `unlocked_by` and an `actionable` flag: `true` means there is
+a step the user can take (usually a `warm`), `false` means no action in this
+build changes it. Offer the first; do not invent one for the second.
+
 **Recent sales on a street**
 
 ```bash
-./gaff price_check street="De Beauvoir Road"
+./gaff price_check street="De Beauvoir Road" town="LONDON"
+./gaff price_check street="Willes Road"                    # town inferred, and said
 ```
 
 Returns median price, sale count, and the five most recent sales with dates and
 property types.
+
+`town=` is optional but never assumed. Left out, it resolves in this order: the
+one warmed town whose cache holds that street, then the town of the saved
+search. The answer carries `town_resolved_from` and, when the town was not
+typed, a `note` saying how it was chosen. If nothing places the street — or if
+the cached town and the saved search disagree — the tool asks instead of
+picking, because a street name is not unique to a town. It never falls back to
+LONDON.
 
 **How resellers actually did in a town**
 
@@ -146,7 +184,16 @@ counts, and the loose datasets present. Run this before promising an answer.
 ./gaff warm flips_town="RUGBY"                    # paced whole-town pull, minutes
 ```
 
-Every cold-data error names this verb. Very large flips towns are refused by a
+`town=` is required unless a saved search names one: this verb spends the live
+request, and a fetch aimed at a guessed city spends it for nothing.
+
+Every cold-data error names this verb, and names it as an OFFER — the payload's
+`offer` carries the exact invocation, what it sends and to whom, and the one
+call it costs. A tool cannot prompt mid-call, so put the offer to the user and
+call `warm` on a yes; nothing else in this build fetches, and no flag makes it.
+For a town outside England and Wales the offer carries `conditional_on`, because
+Price Paid holds no Scottish or Northern Irish sales and the call would come
+back empty. Very large flips towns are refused by a
 record cap rather than truncated.
 
 ## Reading the output
@@ -164,7 +211,9 @@ record cap rather than truncated.
 
 ## Limits
 
-Only towns and streets already in the local cache are available — run
+Run `./gaff situate` first: it answers "can you help me here at all" in three
+lines, per nation and per cache, before anything is promised. Only towns and
+streets already in the local cache are available — run
 `./gaff coverage` for the real list rather than assuming (what is warmed
 changes as streets are warmed and the shipped cache grows); `warm` adds more.
 There is no live listings data and this skill never fetches from property

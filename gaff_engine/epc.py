@@ -99,8 +99,6 @@ CACHE_SCHEMA = 1
 # is the writable per-user cache every write lands in. SHIPPED_EPC_DIR exists
 # only in the lab — no EPC data ships with the package (docs/data-strategy.md
 # §3) — and reads skip it harmlessly when absent.
-EPC_CACHE_DIR = paths.cache_dir("epc")
-SHIPPED_EPC_DIR = paths.shipped_dir("epc")
 
 
 # ---------------------------------------------------------------------------
@@ -438,12 +436,12 @@ def _cert_name(cert_number: str) -> str:
 
 def _search_cache_path(postcode: str) -> str:
     """Where a fetched postcode search is written: always the user cache."""
-    return os.path.join(EPC_CACHE_DIR, _search_name(postcode))
+    return os.path.join(_root("EPC_CACHE_DIR"), _search_name(postcode))
 
 
 def _cert_cache_path(cert_number: str) -> str:
     """Where a fetched certificate is written: always the user cache."""
-    return os.path.join(EPC_CACHE_DIR, _cert_name(cert_number))
+    return os.path.join(_root("EPC_CACHE_DIR"), _cert_name(cert_number))
 
 
 def _read_cache_json(name: str) -> Optional[Dict[str, Any]]:
@@ -454,7 +452,7 @@ def _read_cache_json(name: str) -> Optional[Dict[str, Any]]:
     roots are read from the module globals at call time so a test can
     redirect either tier.
     """
-    for root in (EPC_CACHE_DIR, SHIPPED_EPC_DIR):
+    for root in (_root("EPC_CACHE_DIR"), _root("SHIPPED_EPC_DIR")):
         candidate = os.path.join(root, name)
         if not os.path.exists(candidate):
             continue
@@ -473,7 +471,7 @@ def _write_json(path: str, obj: Any) -> None:
         raise TypeError("EPC cache entries are dict envelopes; got %s"
                         % type(obj).__name__)
     obj.setdefault("cacheSchema", CACHE_SCHEMA)
-    os.makedirs(EPC_CACHE_DIR, exist_ok=True)
+    os.makedirs(_root("EPC_CACHE_DIR"), exist_ok=True)
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(obj, fh, ensure_ascii=False, indent=2)
 
@@ -720,3 +718,36 @@ __all__ = [
     "sqm_to_sqft", "sqft_basis_check", "search_postcode", "fetch_certificate",
     "floor_area_sqft_for", "enrich_comps",
 ]
+
+
+_LAZY_DIRS = {"EPC_CACHE_DIR": lambda: paths.cache_dir("epc"),
+              "SHIPPED_EPC_DIR": lambda: paths.shipped_dir("epc")}
+
+
+# ---------------------------------------------------------------------------
+# Cache locations: resolved ON USE, and overridable by assignment.
+#
+# These were module-level constants (``CACHE_DIR = paths.cache_dir(...)``),
+# which snapshotted $GAFF_CACHE_DIR at IMPORT time. Anything that set the
+# variable afterwards — a test isolating itself, an embedding pointing Gaff at
+# its own cache — moved ``paths.*`` but not these, and got silent PARTIAL
+# isolation: reads through ``paths.read_candidates`` followed the new root while
+# this module kept using the old one.
+#
+# So the names are no longer bound at import. ``_root()`` resolves them fresh on
+# every use, and the public names are served lazily by :pep:`562`. Assignment
+# still wins, because tests/test_epc.py isolates itself precisely that way
+# ("monkeypatched globals are read at call time") and that contract is kept: an
+# assignment lands in the module globals, which ``_root`` checks first.
+# ---------------------------------------------------------------------------
+
+def _root(name):
+    """The directory for ``name``, honouring an assignment, else resolved now."""
+    override = globals().get(name)
+    return override if override is not None else _LAZY_DIRS[name]()
+
+
+def __getattr__(name):
+    if name in _LAZY_DIRS:
+        return _LAZY_DIRS[name]()
+    raise AttributeError("module %r has no attribute %r" % (__name__, name))

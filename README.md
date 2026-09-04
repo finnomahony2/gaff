@@ -2,11 +2,16 @@
 
 ## Quickstart
 
+For Claude Desktop, download `gaff.mcpb` from the [latest
+release](https://github.com/finnomahony2/gaff/releases/latest) and open it.
+That is the whole install. For the CLI:
+
 ```bash
 git clone https://github.com/finnomahony2/gaff && cd gaff
 pip install .                                # not on PyPI yet; installs from the checkout
 gaff doctor                                  # secret-free self-check of the install
 gaff demo                                    # the seeded street end to end, offline
+gaff situate nation=england town=LEEDS       # what it can honestly answer for YOUR search
 gaff price_check street="De Beauvoir Road"   # sold comparables + median for a street
 gaff read_listing 'text=<paste a listing here>'
 gaff value_check 'fields={"address": "De Beauvoir Road, London N1", "beds": 2, "sqft": 1050, "price": 1150000}'
@@ -50,8 +55,9 @@ scores it.
 
 This package makes no model calls and retains nothing. Precisely:
 
-- **Local against cached data:** the deterministic tools — `price_check`,
-  `flip_stats`, `read_listing`, `value_check`, `coverage` — score on your
+- **Local against cached data:** the deterministic tools — `situate`,
+  `price_check`, `flip_stats`, `read_listing`, `value_check`, `coverage` —
+  score on your
   machine against cached open data, and your pasted listing text never leaves
   it. One caveat, stated precisely: when `value_check` needs a UK HPI month
   that is not yet cached, it fetches that one month live from
@@ -74,6 +80,23 @@ package.
 
 ## Install
 
+Two routes. Take the first if you only want the tools inside Claude Desktop,
+and the second if you want the CLI, the tests, or the code.
+
+### One file, for Claude Desktop
+
+Download `gaff.mcpb` from the [latest
+release](https://github.com/finnomahony2/gaff/releases/latest) and open it, or
+add it through Claude Desktop's extension settings. That is the whole install:
+the bundle carries the package and the warm cache, needs no Python environment
+of its own, and has no dependencies to resolve.
+
+The bundle is built from this repo by `tools/build_bundle.py` and is scanned
+before it is written, so what it contains is what this repo allows and nothing
+else.
+
+### From the checkout, for the CLI and the tests
+
 **Plainly: this package is not on PyPI yet.** Install from a checkout of
 this repo (or a wheel someone built from it):
 
@@ -86,6 +109,9 @@ python3 tests/test_u1_golden.py     # the golden verdict, offline
 Installing puts two commands on your PATH: `gaff` (the CLI) and `gaff-mcp`
 (the MCP server). Without installing, `python3 -m gaff_engine.mcp` and
 `python3 surfaces/skill/gaff` do the same jobs from the checkout.
+
+Whichever route you take, `gaff doctor` prints a secret-free self-check and is
+the first thing to run if anything misbehaves.
 
 ## The two surfaces
 
@@ -116,6 +142,14 @@ Or, pointing at a checkout without installing:
 
 Tools:
 
+- `situate` — start here. What this build can honestly answer for your own
+  search, before any evidence call runs: a yes/no/unknown table across sold
+  comps, repeat sales, £/sqft, HPI, EPC and rents, keyed by nation and by what
+  is warmed on your machine; every "no" carrying either the action that would
+  change it or the plain sentence that no action exists. Saves your search so
+  later calls inherit the mode, town and budget. It never refuses: what you
+  have not said comes back as `unknown` rows plus a named list of what is still
+  needed.
 - `price_check` — sold comparables and the trusted median for a street.
 - `flip_stats` — repeat-sales uplift against the market move, so you see the
   excess over HPI rather than the raw gain.

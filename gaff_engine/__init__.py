@@ -18,4 +18,13 @@ from gaff_engine.validate import validate
 
 __all__ = ["composite", "taste_score", "validate", "score", "schemas", "fixtures"]
 
-__version__ = "0.3.0"  # M1 complete — three live scorers (taste U6 + value U3 + rules U4)
+#: THE version, and the only place it is written. ``gaff_engine.mcp`` reports it
+#: over the wire and ``public/pyproject.toml`` must match it; tests/test_version.py
+#: fails if any of the three drift. Before 4 Sep there were three independent
+#: literals and they disagreed in the SHIPPED artefact: the published v0.1.0
+#: package reported ``__version__ == "0.3.0"`` to anyone who asked it.
+__version__ = "0.2.0"
+
+#: The milestone this line used to carry as a version. Kept because it says
+#: something the release number cannot: M1 is three live scorers.
+MILESTONE = "M1 complete — three live scorers (taste U6 + value U3 + rules U4)"
