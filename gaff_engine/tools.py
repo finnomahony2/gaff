@@ -277,7 +277,24 @@ def price_check(street: str, town: str = None, progress=None):
         from gaff_engine import cachemap as _cachemap
         towns = _comps_towns()
         cached = towns.get(_slug(town))
-        nation = _cachemap.resolve_nation(_session_place()[1], town)
+        # The saved session's nation describes the session's OWN town, and
+        # applies to a question about THAT town however the town reached this
+        # call -- named in the argument or inherited. It says nothing about any
+        # other town. Passing it unconditionally let a Scottish saved search
+        # answer a question about Cambridge with "Price Paid covers England and
+        # Wales only, so there is no open sold-price data for CAMBRIDGE",
+        # telling a user in England that their own country's open data does not
+        # exist and that no action would change it. Worse than the LONDON
+        # default F-02 removed, and it shipped in 0.2.0.
+        #
+        # Gating on town_source == "session" instead is the obvious fix and is
+        # wrong: it drops the nation when a Scottish user names their own town
+        # explicitly, and test_a_stated_scottish_nation_is_offered_no_warm_at_all
+        # catches that. Compare the PLACE, not how it arrived.
+        session_town, session_nation = _session_place()
+        same_place = bool(session_town) and _slug(session_town) == _slug(town)
+        nation = _cachemap.resolve_nation(session_nation if same_place else None,
+                                          town)
         out = {"town": str(town).upper(), "street": str(street).upper(),
                "town_resolved_from": town_source}
         if nation["england_or_wales"] is False:

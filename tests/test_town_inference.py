@@ -205,6 +205,51 @@ def test_an_ambiguous_street_name_is_not_resolved_by_uniqueness():
         assert out["town_resolved_from"] is None, out
 
 
+def test_a_scottish_saved_search_does_not_make_an_english_town_dataless():
+    """Found by installing the PUBLISHED 0.2.0 and asking two questions in the
+    order a person actually would: "what can you do for Edinburgh?", then "what
+    did houses on Trinity Street in Cambridge go for?".
+
+    The second came back "HM Land Registry Price Paid covers England and Wales
+    only, so there is no open sold-price data for 'CAMBRIDGE' to fetch or cache",
+    with the hint "no action changes this: the data does not exist to be warmed."
+    Cambridge is in England. Price Paid covers it. The user was told their own
+    country's open data does not exist, and that nothing could be done about it,
+    which is worse than the LONDON default F-02 removed.
+
+    The cause: the cold-street path read the nation out of the saved session and
+    applied it to a town the user had just named. A nation states where the
+    SESSION is. It says nothing about a town named in this call.
+    """
+    with _Cache():
+        tools.situate(nation="scotland", town="Edinburgh")
+        ok, payload = tools.safe_call("price_check", tools.price_check,
+                                      {"street": "Trinity Street",
+                                       "town": "Cambridge"})
+    blob = json.dumps(payload)
+    assert "covers England and Wales only" not in blob, (
+        "a Scottish saved search made an English town dataless: %s"
+        % payload.get("error"))
+    assert "the data does not exist to be warmed" not in blob
+    assert "warm" in blob.lower(), \
+        "an unwarmed English town must still be offered the warm that would fix it"
+
+
+def test_the_session_nation_still_applies_to_the_sessions_own_town():
+    """The other half: gating the leak must not throw the nation away where it
+    genuinely belongs. A user situated in Scotland asking about a street with no
+    town named is asking about THEIR town, and Price Paid still holds nothing."""
+    with _Cache():
+        tools.situate(nation="scotland", town="Edinburgh")
+        _ok, payload = tools.safe_call("price_check", tools.price_check,
+                                       {"street": "Princes Street"})
+        blob = json.dumps(payload)
+    # Either it refuses for want of a warmed town, or it names the nation --
+    # but it must never offer a warm that Price Paid cannot serve.
+    assert 'warm street="PRINCES STREET" town="EDINBURGH"' not in blob, \
+        "offered a Price Paid warm for a Scottish town"
+
+
 def test_a_cold_street_names_the_towns_that_do_hold_it():
     """Found by writing the ambiguous test above. A street held by two OTHER
     towns resolves to neither, so the answer falls through to the saved

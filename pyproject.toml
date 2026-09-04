@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gaff-engine"
-version = "0.2.0"
+version = "0.2.1"
 description = "A property-taste engine: scores UK homes against a person's stated taste, and prices them against open sold-price data."
 readme = "README.md"
 requires-python = ">=3.9"
