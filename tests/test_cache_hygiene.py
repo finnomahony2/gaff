@@ -40,7 +40,7 @@ import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from gaff_engine import epc, hpi, landreg, paths, tools  # noqa: E402
+from gaff_engine import cachemap, epc, hpi, landreg, paths, tools  # noqa: E402
 
 _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -137,6 +137,92 @@ def test_emptiness_is_read_from_the_head_of_the_file_not_a_full_parse():
 
 
 # ---------------------------------------------------------------------------
+# 1b. A cache file that cannot be READ is not coverage either.
+#
+# Found 4 Sep 2026, live in the real user cache: a test had written
+# ~/.gaff/cache/comps/testtown/bad-street.json containing the literal text
+# `{not json`, and `coverage` reported "testtown: 2". The rule was "coverage
+# unless I can see a zero count", so anything unparseable sailed through it as a
+# street WITH sales -- counted in coverage, and able to route a listing through
+# _resolve_pool_town's street-uniqueness branch.
+#
+# The rule is now positive: a file is coverage only if a positive count can
+# actually be read out of its head. And an unreadable file is NOT folded in with
+# the fetched-but-empty ones, because their explanation ("HM Land Registry holds
+# no sales for them") would be a fresh false claim about a file nobody has
+# managed to read.
+# ---------------------------------------------------------------------------
+
+CORRUPT = "{not json"
+NO_COUNT = '{"town": "TESTTOWN", "items": [{"pricePaid": 2}]}'
+TRUNCATED = '{"cacheSchema": 1, "street": "HALF ROAD", "town": "LONDON", "cou'
+
+
+def _raw(cache, rel, text):
+    """Seed a file _Cache cannot: raw bytes, not a JSON dump."""
+    path = os.path.join(cache.dir, rel)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(text)
+    return path
+
+
+def test_an_unreadable_cache_file_is_not_coverage():
+    for label, text in (("corrupt", CORRUPT), ("no count key", NO_COUNT),
+                        ("truncated", TRUNCATED)):
+        with _Cache() as cache:
+            path = _raw(cache, "comps/testtown/bad-street.json", text)
+            assert tools._street_has_sales(path) is False, label
+            assert "bad-street" not in tools._comps_towns().get("testtown", set()), label
+
+
+def test_an_unreadable_file_is_not_called_fetched_but_empty():
+    """"Fetched successfully and HM Land Registry holds no sales for them" is a
+    claim about the upstream. Attaching it to a file we could not read would be
+    inventing a second fact to cover for the first."""
+    with _Cache() as cache:
+        _raw(cache, "comps/testtown/bad-street.json", CORRUPT)
+        assert "bad-street" not in tools._empty_streets("testtown")
+        town = tools.coverage()["comps_towns"]["testtown"]
+        assert "bad-street" not in town.get("fetchedButEmpty", [])
+        assert "bad-street" in town.get("unreadable", []), town
+        assert "could not be read" in town.get("unreadableNote", "")
+
+
+def test_an_unreadable_file_does_not_route_a_listing():
+    """The harm, not the bookkeeping. A street held only by an unreadable file
+    must not make an unplaceable subject placeable."""
+    with _Cache() as cache:
+        _raw(cache, "comps/testtown/nowhere-lane.json", CORRUPT)
+        listing = tools._ingest(dict(UNPLACEABLE), None)
+        assert tools._resolve_pool_town(listing) is None
+
+
+def test_the_three_states_are_told_apart_by_name():
+    with _Cache() as cache:
+        real = paths.read_path("comps", "london", "de-beauvoir-road.json")
+        empty = os.path.join(cache.dir, "comps", "london", "nowhere-lane.json")
+        os.makedirs(os.path.dirname(empty), exist_ok=True)
+        with open(empty, "w", encoding="utf-8") as fh:
+            json.dump(EMPTY_STREET, fh)
+        bad = _raw(cache, "comps/london/bad-street.json", CORRUPT)
+        assert cachemap.street_state(real) == "sales"
+        assert cachemap.street_state(empty) == "empty"
+        assert cachemap.street_state(bad) == "unreadable"
+        assert cachemap.street_state(os.path.join(cache.dir, "gone.json")) == "unreadable"
+
+
+def test_a_positive_count_is_still_read_from_the_head_not_a_full_parse():
+    """The fix must not cost the cheap check: the reason emptiness is read from
+    512 bytes is 0.46 ms across London's streets against 8.5 ms to parse them.
+    Every one of the 39 cached files carries its count within 314 bytes."""
+    real = paths.read_path("comps", "london", "de-beauvoir-road.json")
+    head = open(real, "rb").read(512)
+    assert cachemap._COUNT_IN_HEAD.search(head), \
+        "the count must be findable in the first 512 bytes or the fast path is a lie"
+
+
+# ---------------------------------------------------------------------------
 # 2. Setting GAFF_CACHE_DIR after import moves EVERYTHING.
 # ---------------------------------------------------------------------------
 
@@ -188,6 +274,26 @@ def test_no_module_binds_a_cache_directory_at_import():
 # 3. The suite does not depend on what is in the developer's real cache.
 # ---------------------------------------------------------------------------
 
+def _snapshot_real_cache():
+    """path -> (size, mtime) for everything under the real user cache.
+
+    Deliberately reads paths.user_cache_dir() with the environment as the SUITE
+    RUNNER left it, not as a test set it: the property under test is that a
+    subprocess told to use a temp cache does not touch the developer's own.
+    """
+    root = os.path.join(os.path.expanduser("~"), ".gaff", "cache")
+    out = {}
+    for dirpath, _dirs, files in os.walk(root):
+        for f in files:
+            full = os.path.join(dirpath, f)
+            try:
+                st = os.stat(full)
+            except OSError:
+                continue
+            out[full] = (st.st_size, st.st_mtime_ns)
+    return out
+
+
 def _run_suite_against(cache_dir):
     """Run every test file and both surface suites with GAFF_CACHE_DIR pointed
     at ``cache_dir``; return the ones that fail."""
@@ -225,8 +331,21 @@ def test_a_populated_user_cache_does_not_change_any_result():
              "session.save(session.search_from_answers("
              "{'mode':'buy','town':'LONDON','constraints':['min_beds>=4']}), None)"],
             cwd=_ROOT, env=env, check=True, capture_output=True)
+        # Snapshot the REAL user cache around the run. This is how the three
+        # test-residue files got into ~/.gaff on 3 Sep: a test wrote there
+        # instead of into its temp directory, and nothing noticed until
+        # `coverage` started reporting a town called "testtown" whose two files
+        # were `{not json` and a two-field fake. A suite that can write outside
+        # its sandbox will do it again; this is the tripwire.
+        before = _snapshot_real_cache()
         failed = _run_suite_against(cache)
         assert not failed, "a populated user cache changed these: %s" % failed
+        after = _snapshot_real_cache()
+        added = sorted(set(after) - set(before))
+        changed = sorted(k for k in set(after) & set(before) if after[k] != before[k])
+        assert not added and not changed, (
+            "the suite wrote to the REAL user cache despite GAFF_CACHE_DIR "
+            "pointing elsewhere. added=%s changed=%s" % (added, changed))
     finally:
         shutil.rmtree(cache, ignore_errors=True)
 

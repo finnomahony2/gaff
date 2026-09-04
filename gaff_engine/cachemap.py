@@ -61,7 +61,16 @@ from gaff_engine import paths
 #: without parsing the whole thing. Reading 512 bytes per file is 0.46 ms across
 #: London's 28 streets; a full parse is 8.5 ms — on an 8 ms value_check, the
 #: difference between a correctness check you can afford and one you cannot.
-_EMPTY_ENVELOPE = re.compile(rb'"count"\s*:\s*0\s*[,}]')
+#:
+#: Matched POSITIVELY, which is the 4 Sep fix. The old pattern was
+#: ``"count"\s*:\s*0`` and the rule was "coverage unless I can see a zero", so a
+#: file that could not be parsed at all had no zero to find and passed as a
+#: street WITH sales. Every one of the 39 real cached files carries its count
+#: within 314 bytes, so requiring the match costs nothing and fails closed.
+_COUNT_IN_HEAD = re.compile(rb'"count"\s*:\s*(\d+)')
+
+#: How much of a file settles it. Generous against the 314-byte worst case seen.
+_HEAD_BYTES = 512
 
 #: ``<region>_<YYYY-MM>.json`` — the UK HPI cache's file name.
 _HPI_FILE = re.compile(r"^(?P<region>.+)_(?P<month>\d{4}-\d{2})\.json$")
@@ -104,22 +113,46 @@ _NO_EPC_REGISTER = {
 # is exactly one rule for "does this cached street count as coverage".
 # ---------------------------------------------------------------------------
 
-def street_has_sales(path: str) -> bool:
-    """False when this cached street holds no recorded sales.
+def street_state(path: str) -> str:
+    """``"sales"``, ``"empty"`` or ``"unreadable"`` for one cached street file.
 
-    A street fetched successfully that came back with nothing — a misspelling, a
-    road with no transactions, a new-build estate — is cached so it is not
-    fetched again, and that is right. What is NOT right is counting it as
-    coverage: ``_resolve_pool_town`` routes a subject by street uniqueness, so a
-    zero-sale file makes a street name "belong" to a town on the strength of a
-    file containing nothing, and ``coverage`` reports a street the user cannot
-    get an answer from. The shipped warm cache carries three of these.
+    Three states, because the two failures are not the same failure and folding
+    them together invents a fact:
+
+    * ``empty`` — fetched successfully, and HM Land Registry holds no sales for
+      it. A misspelling, a road with no transactions, a new-build estate. It is
+      cached so it is not fetched again, and that is right; what is not right is
+      counting it as coverage, because ``_resolve_pool_town`` routes a subject by
+      street uniqueness and a zero-sale file would make a street name "belong"
+      to a town on the strength of a file containing nothing. The shipped warm
+      cache carries three of these.
+    * ``unreadable`` — missing, unopenable, truncated, or not the envelope shape
+      at all. Nothing is known about the upstream, so nothing may be said about
+      it. Calling this one "empty" would attach ``empty``'s explanation — "HM
+      Land Registry holds no sales for them" — to a file nobody has managed to
+      read, which is a second false claim covering for the first.
+    * ``sales`` — a positive count was actually read out of the head.
+
+    Found live on 4 Sep 2026: ``~/.gaff/cache/comps/testtown/bad-street.json``
+    contained the literal text ``{not json`` and ``coverage`` reported
+    "testtown: 2". The old rule looked for a zero and treated its absence as
+    coverage, so anything unparseable sailed straight through it.
     """
     try:
         with open(path, "rb") as fh:
-            return _EMPTY_ENVELOPE.search(fh.read(512)) is None
+            head = fh.read(_HEAD_BYTES)
     except OSError:
-        return False              # unreadable is not coverage either
+        return "unreadable"
+    m = _COUNT_IN_HEAD.search(head)
+    if m is None:
+        return "unreadable"
+    return "sales" if int(m.group(1)) > 0 else "empty"
+
+
+def street_has_sales(path: str) -> bool:
+    """Is this cached street coverage? True only for :func:`street_state`
+    ``"sales"``. Kept as the name every caller already uses."""
+    return street_state(path) == "sales"
 
 
 def comps_map(include_empty: bool = False) -> Dict[str, Set[str]]:
@@ -143,8 +176,7 @@ def comps_map(include_empty: bool = False) -> Dict[str, Set[str]]:
     return towns
 
 
-def empty_streets(town_slug: str) -> List[str]:
-    """The street slugs cached for this town that hold no sales, sorted."""
+def _streets_in_state(town_slug: str, state: str) -> List[str]:
     out = set()
     for base in paths.read_candidates("comps"):
         tdir = os.path.join(base, town_slug)
@@ -152,8 +184,20 @@ def empty_streets(town_slug: str) -> List[str]:
             continue
         out.update(f[:-5] for f in os.listdir(tdir)
                    if f.endswith(".json")
-                   and not street_has_sales(os.path.join(tdir, f)))
+                   and street_state(os.path.join(tdir, f)) == state)
     return sorted(out)
+
+
+def empty_streets(town_slug: str) -> List[str]:
+    """The street slugs cached for this town that were fetched and hold no
+    sales, sorted. NOT the unreadable ones — see :func:`unreadable_streets`."""
+    return _streets_in_state(town_slug, "empty")
+
+
+def unreadable_streets(town_slug: str) -> List[str]:
+    """The street slugs cached for this town whose files could not be read as a
+    cached street at all, sorted. Neither coverage nor evidence of absence."""
+    return _streets_in_state(town_slug, "unreadable")
 
 
 def comps_detail() -> Dict[str, Dict[str, Any]]:
@@ -173,16 +217,17 @@ def comps_detail() -> Dict[str, Dict[str, Any]]:
             tdir = os.path.join(base, town)
             if not os.path.isdir(tdir):
                 continue
-            streets, empty = [], []
+            buckets = {"sales": [], "empty": [], "unreadable": []}
             for f in sorted(os.listdir(tdir)):
                 if not f.endswith(".json"):
                     continue
-                (streets if street_has_sales(os.path.join(tdir, f))
-                 else empty).append(f[:-5])
+                buckets[street_state(os.path.join(tdir, f))].append(f[:-5])
+            streets = buckets["sales"]
             rec = out.setdefault(town, {"streets": set(), "empty": set(),
-                                        "fetchedAt": None})
+                                        "unreadable": set(), "fetchedAt": None})
             rec["streets"].update(streets)
-            rec["empty"].update(empty)
+            rec["empty"].update(buckets["empty"])
+            rec["unreadable"].update(buckets["unreadable"])
             if rec["fetchedAt"] is None and streets:
                 try:
                     with open(os.path.join(tdir, streets[0] + ".json"),
@@ -253,7 +298,19 @@ def walk() -> Dict[str, Any]:
                         "emptyNote": "fetched successfully and HM Land Registry "
                                      "holds no sales for them; they are not "
                                      "coverage and do not route a listing"}
-                       if v["empty"] else {}))
+                       if v["empty"] else {}),
+                    # Reported apart from the empty ones on purpose: nothing is
+                    # known about the upstream for these, so the empty note's
+                    # claim about HM Land Registry must not be borrowed for them.
+                    **({"unreadable": sorted(v["unreadable"]),
+                        "unreadableNote": "these files could not be read as a "
+                                          "cached street (truncated, corrupt, or "
+                                          "not the envelope shape); they are not "
+                                          "coverage, they do not route a listing, "
+                                          "and nothing is known about whether "
+                                          "sales exist — delete one and warm that "
+                                          "street again"}
+                       if v["unreadable"] else {}))
             for t, v in sorted(comps.items())},
         "flips_towns": dict(sorted(flips_counts().items())),
         "datasets": datasets(),
@@ -426,6 +483,9 @@ def _sold_comps(nat, place, rec) -> Dict[str, Any]:
     if rec and rec["streets"]:
         extra = (", and %d more that came back with no sales"
                  % len(rec["empty"])) if rec["empty"] else ""
+        if rec["unreadable"]:
+            extra += (", and %d cached file(s) that could not be read at all"
+                      % len(rec["unreadable"]))
         when = (" (fetched %s)" % rec["fetchedAt"]) if rec["fetchedAt"] else ""
         return _row("sold_comps", "yes",
                     "%d street(s) cached for %s%s%s"
@@ -744,6 +804,7 @@ def situation(nation: Optional[str] = None,
         "warmed": {
             "this_place": ({"streets": len(rec["streets"]),
                             "fetchedButEmpty": len(rec["empty"]),
+                            "unreadable": len(rec["unreadable"]),
                             "fetchedAt": rec["fetchedAt"]} if rec else None),
             "flips_records": flip_count,
             "comps_towns": {t: len(v["streets"]) for t, v in sorted(detail.items())
